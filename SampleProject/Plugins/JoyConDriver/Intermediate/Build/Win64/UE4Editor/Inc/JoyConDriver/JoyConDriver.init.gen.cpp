@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeJoyConDriver_init() {}
+	JOYCONDRIVER_API UFunction* Z_Construct_UDelegateFunction_JoyConDriver_NewControllerConnected__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_JoyConDriver()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_JoyConDriver_NewControllerConnected__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/JoyConDriver",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x936972DA,
-				0x14833931,
+				0xEE1C348E,
+				0xC924E397,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

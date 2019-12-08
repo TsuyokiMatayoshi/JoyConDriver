@@ -5,10 +5,14 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 #include "Tickable.h"
+#include "JoyConController.h"
+#include "DriverEventBinder.h"
 
 class FJoyConDriverModule : public IModuleInterface, public FTickableGameObject {
 public:
-
+	FJoyConDriverModule();
+	~FJoyConDriverModule();
+	
 	/** IModuleInterface implementation */
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
@@ -21,6 +25,7 @@ public:
 	virtual bool IsTickableInEditor() const override   { return true; }
 	virtual TStatId GetStatId() const override;
 	
-private:
+public:
 	float Time = 0.0F;
+	UDriverEventBinder *EventBinder;
 };

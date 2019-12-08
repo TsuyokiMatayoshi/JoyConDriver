@@ -136,9 +136,21 @@
     <ClInclude Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Public\JoyConController.h">
       <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Public\JoyConBlueprintFunctions.h">
+      <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Public\DriverEventBinder.h">
+      <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Private\JoyConController.cpp">
+      <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Private\JoyConBlueprintFunctions.cpp">
+      <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Private\DriverEventBinder.cpp">
       <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Private</Filter>
     </ClCompile>
   </ItemGroup>

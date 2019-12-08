@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define JOYCONDRIVER_JoyConController_generated_h
 
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_RPC_WRAPPERS
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_INCLASS_NO_PURE_DECLS \
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_RPC_WRAPPERS
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_RPC_WRAPPERS_NO_PURE_DECLS
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUJoyConController(); \
 	friend struct Z_Construct_UClass_UJoyConController_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UJoyConController)
 
 
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_INCLASS \
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_INCLASS \
 private: \
 	static void StaticRegisterNativesUJoyConController(); \
 	friend struct Z_Construct_UClass_UJoyConController_Statics; \
@@ -33,9 +33,9 @@ public: \
 	DECLARE_SERIALIZER(UJoyConController)
 
 
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_STANDARD_CONSTRUCTORS \
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UJoyConController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UJoyConController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UJoyConController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UJoyConController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UJoyConController); \
@@ -46,9 +46,7 @@ private: \
 public:
 
 
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UJoyConController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UJoyConController(UJoyConController&&); \
@@ -56,29 +54,29 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UJoyConController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UJoyConController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UJoyConController)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UJoyConController)
 
 
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_PRIVATE_PROPERTY_OFFSET
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_12_PROLOG
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_GENERATED_BODY_LEGACY \
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_PRIVATE_PROPERTY_OFFSET
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_46_PROLOG
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_PRIVATE_PROPERTY_OFFSET \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_RPC_WRAPPERS \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_INCLASS \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_STANDARD_CONSTRUCTORS \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_PRIVATE_PROPERTY_OFFSET \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_RPC_WRAPPERS \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_INCLASS \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_GENERATED_BODY \
+#define SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_PRIVATE_PROPERTY_OFFSET \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_INCLASS_NO_PURE_DECLS \
-	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_15_ENHANCED_CONSTRUCTORS \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_PRIVATE_PROPERTY_OFFSET \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_INCLASS_NO_PURE_DECLS \
+	SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h_48_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,4 +87,11 @@ template<> JOYCONDRIVER_API UClass* StaticClass<class UJoyConController>();
 #define CURRENT_FILE_ID SampleProject_Plugins_JoyConDriver_Source_JoyConDriver_Public_JoyConController_h
 
 
+#define FOREACH_ENUM_EJOYCONSTATE(op) \
+	op(Not_Attached) \
+	op(Dropped) \
+	op(No_Joycons) \
+	op(Attached) \
+	op(Input_Mode_0_X30) \
+	op(Imu_Data_OK) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

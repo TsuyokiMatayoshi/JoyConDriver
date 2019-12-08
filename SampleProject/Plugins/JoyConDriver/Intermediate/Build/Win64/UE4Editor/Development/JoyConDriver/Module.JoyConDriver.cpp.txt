@@ -1,3 +1,0 @@
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Definitions.JoyConDriver.h
-C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Source/JoyConDriver/Private/JoyConDriver.cpp
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Public\JoyConDriver.h

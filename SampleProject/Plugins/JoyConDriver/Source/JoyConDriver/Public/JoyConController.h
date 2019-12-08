@@ -48,6 +48,9 @@ class JOYCONDRIVER_API UJoyConController : public UObject, public FRunnable {
 	GENERATED_BODY()
 
 public:
+	UJoyConController();
+	~UJoyConController();
+	
 	virtual bool Init() override;
 	virtual uint32 Run() override;
 	virtual void Stop() override;

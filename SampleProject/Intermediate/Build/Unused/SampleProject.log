@@ -1,36 +1,37 @@
-﻿  Cleaning SampleProjectEditor and UnrealHeaderTool binaries...
-  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
-  Creating makefile for SampleProjectEditor (no existing makefile)
-  Using Python at: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
-  [WARNING] Your Python installation is not in the system PATH environment variable.
-  [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
-C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs : warning : Referenced directory 'C:\Program Files\Epic Games\UE_4.23\Engine\Source\UnrealEnginePython\Public' does not exist.
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
   Parsing headers for SampleProjectEditor
     Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SampleProjectEditor in 5,1140163 seconds
-  [Adaptive unity build] Excluded from JoyConDriver unity file: JoyConController.cpp
+  Reflection code generated for SampleProjectEditor in 5,2506759 seconds
+  Failed to delete file 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Binaries\Win64\UE4Editor-JoyConDriver.pdb'
+      Exception: O acesso ao caminho 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Binaries\Win64\UE4Editor-JoyConDriver.pdb' foi negado.
+  Attempting to retry...
+  Failed to delete file 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Binaries\Win64\UE4Editor-JoyConDriver.pdb'
+      Exception: O acesso ao caminho 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Binaries\Win64\UE4Editor-JoyConDriver.pdb' foi negado.
+  Attempting to retry...
+  Failed to delete file 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Binaries\Win64\UE4Editor-JoyConDriver.pdb'
+      Exception: O acesso ao caminho 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Binaries\Win64\UE4Editor-JoyConDriver.pdb' foi negado.
+EXEC : error : Exhausted all retries!
+  Failed to delete file 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Binaries\Win64\UE4Editor-SampleProject.pdb'
+      Exception: O acesso ao caminho 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Binaries\Win64\UE4Editor-SampleProject.pdb' foi negado.
+  Attempting to retry...
+  Failed to delete file 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Binaries\Win64\UE4Editor-SampleProject.pdb'
+      Exception: O acesso ao caminho 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Binaries\Win64\UE4Editor-SampleProject.pdb' foi negado.
+  Attempting to retry...
+  Failed to delete file 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Binaries\Win64\UE4Editor-SampleProject.pdb'
+      Exception: O acesso ao caminho 'C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Binaries\Win64\UE4Editor-SampleProject.pdb' foi negado.
+EXEC : error : Exhausted all retries!
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 17 actions with 16 processes...
-    [1/17] Default.rc2
-    [2/17] Default.rc2
-    [3/17] hid.c
-    [4/17] SharedPCH.Engine.NoUndef.cpp
-    [5/17] SharedPCH.Engine.cpp
-    [6/17] SampleProject.cpp
-    [7/17] Module.JoyConDriver.cpp
-    [8/17] JoyConController.cpp
-    [9/17] SampleProject.init.gen.cpp
-    [10/17] SampleProjectGameModeBase.cpp
-    [11/17] Module.JoyConDriver.gen.cpp
-    [12/17] UE4Editor-JoyConDriver.lib
-       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.exp
-    [13/17] SampleProjectGameModeBase.gen.cpp
-    [14/17] UE4Editor-SampleProject.lib
-       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.exp
-    [15/17] UE4Editor-JoyConDriver.dll
-       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.suppressed.exp
-    [16/17] UE4Editor-SampleProject.dll
-       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.suppressed.exp
-    [17/17] SampleProjectEditor.target
-  Total time in Parallel executor: 18,82 seconds
-  Total execution time: 25,72 seconds
+  Building 6 actions with 16 processes...
+    [1/6] UE4Editor-SampleProject-0003.lib
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject-0003.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject-0003.exp
+    [2/6] UE4Editor-SampleProject-0003.dll
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject-0003.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject-0003.suppressed.exp
+    [3/6] Module.JoyConDriver.cpp
+    [4/6] UE4Editor-JoyConDriver-0003.lib
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0003.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0003.exp
+    [5/6] UE4Editor-JoyConDriver-0003.dll
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0003.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0003.suppressed.exp
+    [6/6] SampleProjectEditor.target
+  Total time in Parallel executor: 1,97 seconds
+  Total execution time: 12,03 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Build.bat" SampleProjectEditor Win64 Development -Project="C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" -WaitMutex -FromMsBuild" exited with code -1.

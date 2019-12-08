@@ -9,12 +9,22 @@
 #include <map>
 #include "HideWindowsPlatformTypes.h"
 
+UJoyConController::UJoyConController() {
+}
+
+UJoyConController::~UJoyConController() {
+}
+
+
 bool UJoyConController::Init() {
 	return State == EJoyConState::Attached;
 }
 
 void UJoyConController::Initialize(hid_device* Device, bool UseImu, bool UseLocalize, float Alpha, bool IsLeft) {
-
+	HidHandle = Device;
+	bIsLeft = IsLeft;
+	bImuEnabled = UseImu;
+	bDoLocalize = UseLocalize;
 }
 
 void UJoyConController::StartThread() {
@@ -49,7 +59,7 @@ void UJoyConController::Attach(uint8_t Leds) {
 }
 
 uint32 UJoyConController::Run() {
-
+	return 0;
 }
 
 void UJoyConController::Update() {
@@ -158,3 +168,5 @@ void UJoyConController::ArrayCopy(uint8_t* SourceArray, int SourceIndex, uint8_t
 void UJoyConController::ArrayCopy(const uint8_t* SourceArray, int SourceIndex, uint8_t* DestinationArray, int DestinationIndex, int Length) {
 	std::copy(SourceArray + SourceIndex, SourceArray + SourceIndex + Length, DestinationArray + DestinationIndex);
 }
+
+void UJoyConController::NewControllerConnected() { }

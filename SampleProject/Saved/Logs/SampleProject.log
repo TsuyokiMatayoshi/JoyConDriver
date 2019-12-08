@@ -1,4 +1,4 @@
-﻿Log file open, 12/08/19 13:55:09
+﻿Log file open, 12/08/19 15:47:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SampleProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.070258
+LogStats: Stats thread started at 0.066976
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -159,411 +159,1197 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.08-16.55.09:847][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.08-16.55.09:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:848][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:850][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.08-16.55.09:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.08-16.55.09:851][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.08-16.55.09:851][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.08-16.55.09:851][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.08-16.55.09:854][  0]LogHAL: Display: Platform has ~ 16 GB [17128579072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.08-16.55.09:854][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.08-16.55.09:854][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.08-16.55.09:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.08-16.55.09:855][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
-[2019.12.08-16.55.09:855][  0]LogInit: Computer: DESKTOP-MSO4SAP
-[2019.12.08-16.55.09:855][  0]LogInit: User: jpdante
-[2019.12.08-16.55.09:855][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.12.08-16.55.09:855][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.08-16.55.09:856][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.12.08-16.55.09:856][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.08-16.55.09:856][  0]LogMemory: Process Physical Memory: 102.06 MB used, 102.06 MB peak
-[2019.12.08-16.55.09:856][  0]LogMemory: Process Virtual Memory: 102.42 MB used, 102.42 MB peak
-[2019.12.08-16.55.09:856][  0]LogMemory: Physical Memory: 9132.89 MB used,  7202.20 MB free, 16335.09 MB total
-[2019.12.08-16.55.09:856][  0]LogMemory: Virtual Memory: 4703.77 MB used,  134213024.00 MB free, 134217728.00 MB total
-[2019.12.08-16.55.09:858][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.08-16.55.09:879][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.12.08-16.55.09:879][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.12.08-16.55.10:030][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.08-16.55.10:057][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.08-16.55.10:057][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.08-16.55.10:189][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.08-16.55.10:189][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.08-16.55.10:253][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.12.08-16.55.10:253][  0]LogD3D11RHI:       4043/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.12.08-16.55.10:255][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.08-16.55.10:255][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.08-16.55.10:255][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.08-16.55.10:265][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.08-16.55.10:265][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.12.08-16.55.10:265][  0]LogWindows: EnumDisplayDevices:
-[2019.12.08-16.55.10:265][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.12.08-16.55.10:265][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.12.08-16.55.10:266][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.12.08-16.55.10:266][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.12.08-16.55.10:266][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.12.08-16.55.10:266][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.12.08-16.55.10:266][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
-[2019.12.08-16.55.10:266][  0]LogD3D11RHI:      Driver Date: 11-20-2019
-[2019.12.08-16.55.10:266][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.12.08-16.55.10:308][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.08-16.55.10:323][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.12.08-16.55.10:551][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.08-16.55.10:559][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.08-16.55.10:568][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.08-16.55.10:576][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.08-16.55.10:585][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.08-16.55.10:593][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.08-16.55.10:601][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.08-16.55.10:610][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.08-16.55.10:614][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.08-16.55.10:643][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.08-16.55.10:645][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.08-16.55.10:661][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.08-16.55.10:661][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.08-16.55.10:674][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.08-16.55.10:674][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.08-16.55.10:680][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.08-16.55.10:686][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.08-16.55.10:692][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.08-16.55.10:699][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.08-16.55.10:721][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.08-16.55.10:721][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.08-16.55.10:721][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.08-16.55.10:730][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.08-16.55.10:775][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Intermediate/Shaders/WorkingDirectory/18376/).
-[2019.12.08-16.55.10:775][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpdante/AppData/Local/Temp/UnrealShaderWorkingDir/01B7335048D5E7E3FE95CB8DBACEF378/'.
-[2019.12.08-16.55.10:778][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.08-16.55.10:778][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.08-16.55.10:778][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.08-16.55.11:333][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.08-16.55.11:379][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.08-16.55.11:379][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.12.08-16.55.11:379][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.08-16.55.11:379][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.08-16.55.11:379][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.08-16.55.11:379][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.08-16.55.11:390][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.08-16.55.11:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.08-16.55.11:390][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.08-16.55.11:391][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpdante/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.08-16.55.11:391][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.08-16.55.11:391][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.08-16.55.11:412][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.08-16.55.11:415][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.08-16.55.11:415][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.08-16.55.11:461][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2019.12.08-16.55.11:719][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.08-16.55.11:855][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.08-16.55.11:855][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.08-16.55.11:855][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.08-16.55.11:855][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.08-16.55.11:855][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.08-16.55.11:864][  0]LogNetVersion: SampleProject 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 302111088)
-[2019.12.08-16.55.12:235][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 1 prioritized culture(s) in 0.043239 seconds
-[2019.12.08-16.55.12:242][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.12.08-16.55.12:242][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.12.08-16.55.12:242][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.08-16.55.12:969][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.08-16.55.12:973][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.08-16.55.13:061][  0]SourceControl: Source control is disabled
-[2019.12.08-16.55.13:061][  0]SourceControl: Source control is disabled
-[2019.12.08-16.55.13:063][  0]SourceControl: Source control is disabled
-[2019.12.08-16.55.13:064][  0]SourceControl: Source control is disabled
-[2019.12.08-16.55.13:169][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.08-16.55.13:292][  0]LogOcInput: OculusInput pre-init called
-[2019.12.08-16.55.13:299][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.08-16.55.13:299][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.08-16.55.13:315][  0]LogPython: Python Scripts search path: ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Scripts
-[2019.12.08-16.55.13:315][  0]LogPython: Python Scripts search path: ../../../Engine/Plugins/UnrealEnginePython
-[2019.12.08-16.55.13:315][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
-[2019.12.08-16.55.13:427][  0]LogPython: ####################----------Python Integration for Megascans Initialized----------####################
-[2019.12.08-16.55.13:427][  0]LogPython: 
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.08-18.47.31:473][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.08-18.47.31:474][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.08-18.47.31:474][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.08-18.47.31:474][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.08-18.47.31:474][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.08-18.47.31:474][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:474][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:475][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.08-18.47.31:475][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.08-18.47.31:476][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.08-18.47.31:476][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.08-18.47.31:476][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.08-18.47.31:479][  0]LogHAL: Display: Platform has ~ 16 GB [17128579072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.08-18.47.31:479][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.08-18.47.31:479][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.08-18.47.31:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.08-18.47.31:480][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.47.31:480][  0]LogInit: Computer: DESKTOP-MSO4SAP
+[2019.12.08-18.47.31:480][  0]LogInit: User: jpdante
+[2019.12.08-18.47.31:480][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.12.08-18.47.31:480][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.08-18.47.31:480][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.12.08-18.47.31:480][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.08-18.47.31:480][  0]LogMemory: Process Physical Memory: 102.38 MB used, 102.38 MB peak
+[2019.12.08-18.47.31:480][  0]LogMemory: Process Virtual Memory: 102.31 MB used, 102.31 MB peak
+[2019.12.08-18.47.31:481][  0]LogMemory: Physical Memory: 7529.88 MB used,  8805.20 MB free, 16335.09 MB total
+[2019.12.08-18.47.31:481][  0]LogMemory: Virtual Memory: 4703.77 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.12.08-18.47.31:482][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.08-18.47.31:501][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.08-18.47.31:502][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.12.08-18.47.31:649][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.08-18.47.31:676][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.08-18.47.31:676][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.08-18.47.31:802][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.08-18.47.31:802][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.08-18.47.31:865][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.12.08-18.47.31:865][  0]LogD3D11RHI:       4043/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.08-18.47.31:867][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.08-18.47.31:867][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.08-18.47.31:867][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.08-18.47.31:875][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.08-18.47.31:875][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.08-18.47.31:875][  0]LogWindows: EnumDisplayDevices:
+[2019.12.08-18.47.31:875][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.12.08-18.47.31:875][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.12.08-18.47.31:876][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.12.08-18.47.31:876][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.12.08-18.47.31:876][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.08-18.47.31:876][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.12.08-18.47.31:876][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2019.12.08-18.47.31:876][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2019.12.08-18.47.31:876][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.12.08-18.47.31:918][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.08-18.47.31:934][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.08-18.47.32:160][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.08-18.47.32:168][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.08-18.47.32:176][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.08-18.47.32:184][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.08-18.47.32:193][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.08-18.47.32:201][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.08-18.47.32:211][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.08-18.47.32:219][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.08-18.47.32:224][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.08-18.47.32:253][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.08-18.47.32:254][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.08-18.47.32:270][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.08-18.47.32:271][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.08-18.47.32:284][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.08-18.47.32:284][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.08-18.47.32:291][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.08-18.47.32:298][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.08-18.47.32:305][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.08-18.47.32:312][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.08-18.47.32:335][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.08-18.47.32:335][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.08-18.47.32:335][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.08-18.47.32:344][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.08-18.47.32:391][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Intermediate/Shaders/WorkingDirectory/1188/).
+[2019.12.08-18.47.32:391][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpdante/AppData/Local/Temp/UnrealShaderWorkingDir/71136D83442B2DEDEAD9A0B694885076/'.
+[2019.12.08-18.47.32:394][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.08-18.47.32:394][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.08-18.47.32:394][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.08-18.47.32:947][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.08-18.47.32:991][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.08-18.47.32:991][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.08-18.47.32:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.08-18.47.32:991][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.08-18.47.32:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.08-18.47.32:991][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.08-18.47.33:002][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.08-18.47.33:002][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.08-18.47.33:002][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.08-18.47.33:003][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpdante/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.08-18.47.33:003][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.08-18.47.33:003][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.08-18.47.33:026][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.08-18.47.33:029][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.08-18.47.33:029][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.08-18.47.33:076][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2019.12.08-18.47.33:327][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.08-18.47.33:455][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.08-18.47.33:455][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.08-18.47.33:455][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.08-18.47.33:455][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.08-18.47.33:455][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.08-18.47.33:463][  0]LogNetVersion: SampleProject 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 302111088)
+[2019.12.08-18.47.33:817][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 1 prioritized culture(s) in 0.037998 seconds
+[2019.12.08-18.47.33:823][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.08-18.47.33:823][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.08-18.47.33:823][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.08-18.47.34:523][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.08-18.47.34:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.08-18.47.34:584][  0]SourceControl: Source control is disabled
+[2019.12.08-18.47.34:584][  0]SourceControl: Source control is disabled
+[2019.12.08-18.47.34:585][  0]SourceControl: Source control is disabled
+[2019.12.08-18.47.34:586][  0]SourceControl: Source control is disabled
+[2019.12.08-18.47.34:659][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.08-18.47.34:761][  0]LogOcInput: OculusInput pre-init called
+[2019.12.08-18.47.34:767][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.08-18.47.34:767][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.08-18.47.34:781][  0]LogPython: Python Scripts search path: ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Scripts
+[2019.12.08-18.47.34:781][  0]LogPython: Python Scripts search path: ../../../Engine/Plugins/UnrealEnginePython
+[2019.12.08-18.47.34:781][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2019.12.08-18.47.34:888][  0]LogPython: ####################----------Python Integration for Megascans Initialized----------####################
+[2019.12.08-18.47.34:888][  0]LogPython: 
 
-[2019.12.08-16.55.13:427][  0]LogPython: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\
-[2019.12.08-16.55.13:427][  0]LogPython: 
+[2019.12.08-18.47.34:889][  0]LogPython: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\
+[2019.12.08-18.47.34:889][  0]LogPython: 
 
-[2019.12.08-16.55.13:477][  0]LogPython: Megascans Integration - LiveLink Initialized...
-[2019.12.08-16.55.13:477][  0]LogPython: 
+[2019.12.08-18.47.34:934][  0]LogPython: Megascans Integration - LiveLink Initialized...
+[2019.12.08-18.47.34:934][  0]LogPython: 
 
-[2019.12.08-16.55.13:478][  0]LogPython: ue_site Python module successfully imported
-[2019.12.08-16.55.13:481][  0]LogTemp: Display: JoyConDriver Module started!
-[2019.12.08-16.55.13:553][  0]LogEngine: Initializing Engine...
-[2019.12.08-16.55.13:554][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.08-16.55.13:555][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.08-16.55.13:759][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.08-16.55.13:773][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.08-16.55.13:793][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.12.08-16.55.13:919][  0]LogInit: FAudioDevice initialized.
-[2019.12.08-16.55.13:919][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.08-16.55.13:972][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.08-16.55.13:976][  0]LogInit: Texture streaming: Enabled
-[2019.12.08-16.55.13:998][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.08-16.55.13:998][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.12.08-16.55.13:998][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.12.08-16.55.14:056][  0]LogInit: Transaction tracking system initialized
-[2019.12.08-16.55.14:092][  0]BlueprintLog: New page: Editor Load
-[2019.12.08-16.55.14:186][  0]LocalizationService: Localization service is disabled
-[2019.12.08-16.55.14:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/' took 0.00s
-[2019.12.08-16.55.14:634][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.08-16.55.14:635][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.08-16.55.14:811][  0]SourceControl: Source control is disabled
-[2019.12.08-16.55.14:811][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.08-16.55.14:811][  0]LightingResults: New page: Lighting Build
-[2019.12.08-16.55.14:814][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.08-16.55.14:814][  0]MapCheck: New page: Map Check
-[2019.12.08-16.55.14:814][  0]LightingResults: New page: Lighting Build
-[2019.12.08-16.55.14:849][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2019.12.08-16.55.14:918][  0]LogAIModule: Creating AISystem for world NewMap
-[2019.12.08-16.55.14:921][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.08-16.55.14:956][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2019.12.08-16.55.14:956][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.08-16.55.14:956][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
-[2019.12.08-16.55.14:956][  0]LogFileHelpers: Loading map 'NewMap' took 0.145
-[2019.12.08-16.55.15:043][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-16.55.15:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-16.55.15:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-16.55.15:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.08-16.55.15:072][  0]LogCollectionManager: Loaded 0 collections in 0.001954 seconds
-[2019.12.08-16.55.15:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Collections/' took 0.00s
-[2019.12.08-16.55.15:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Developers/jpdante/Collections/' took 0.00s
-[2019.12.08-16.55.15:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Collections/' took 0.00s
-[2019.12.08-16.55.15:079][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.12.08-16.55.15:088][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2884 classes and 692 folders.
-[2019.12.08-16.55.15:094][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.08-16.55.15:122][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.08-16.55.15:133][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.12.08-16.55.15:148][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.08-16.55.15:150][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.08-16.55.15:155][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.08-16.55.15:155][  0]LogSlate: Took 0.000061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.12.08-16.55.15:244][  0]LogRenderer: Reallocating scene render targets to support 1228x588 Format 10 NumSamples 1 (Frame:1).
-[2019.12.08-16.55.15:318][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.08-16.55.15:318][  0]LogLoad: (Engine Initialization) Total time: 6.22 seconds
-[2019.12.08-16.55.15:318][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.08-16.55.15:360][  0]LogAssetRegistry: Asset discovery search completed in 3.9007 seconds
-[2019.12.08-16.55.15:363][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2019.12.08-16.55.15:364][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000232 seconds (updated 0 objects)
-[2019.12.08-16.55.15:365][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.08-16.55.16:344][  4]LogPython: tcp server spawned on 127.0.0.1:13428
-[2019.12.08-16.56.04:145][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.08-16.56.04:152][693]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.08-16.56.15:339][824]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={FCBA234D-495C-8A37-6EF4-459291FD9EFE}
-[2019.12.08-16.56.15:339][824]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={0DBBC8B3-45B4-C4E3-E91F-AE871E43C46E}
-[2019.12.08-16.57.15:595][  4]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={BF54CA3E-482B-4FED-4B69-16B575345530}
-[2019.12.08-16.59.16:149][364]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={79F05B9E-483F-A481-CDC9-AEA24F7EB745}
-[2019.12.08-17.02.16:679][903]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={EB8EDDC6-4BBA-1850-741F-F981B4261B5B}
-[2019.12.08-17.05.16:871][440]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={78769E1D-4FE3-4E85-20AE-58B598392E54}
-[2019.12.08-17.55.46:098][752]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.08-17.55.46:152][752]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.08-18.47.34:935][  0]LogPython: ue_site Python module successfully imported
+[2019.12.08-18.47.34:937][  0]LogTemp: Display: JoyConDriver Module started!
+[2019.12.08-18.47.35:000][  0]LogEngine: Initializing Engine...
+[2019.12.08-18.47.35:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.08-18.47.35:002][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.08-18.47.35:198][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.08-18.47.35:212][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.08-18.47.35:231][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.08-18.47.35:349][  0]LogInit: FAudioDevice initialized.
+[2019.12.08-18.47.35:349][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.08-18.47.35:399][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.08-18.47.35:403][  0]LogInit: Texture streaming: Enabled
+[2019.12.08-18.47.35:422][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.08-18.47.35:422][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.08-18.47.35:422][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.08-18.47.35:462][  0]LogInit: Transaction tracking system initialized
+[2019.12.08-18.47.35:494][  0]BlueprintLog: New page: Editor Load
+[2019.12.08-18.47.35:571][  0]LocalizationService: Localization service is disabled
+[2019.12.08-18.47.36:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/' took 0.00s
+[2019.12.08-18.47.36:004][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.08-18.47.36:004][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.08-18.47.36:173][  0]SourceControl: Source control is disabled
+[2019.12.08-18.47.36:173][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.08-18.47.36:174][  0]LightingResults: New page: Lighting Build
+[2019.12.08-18.47.36:176][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-18.47.36:177][  0]MapCheck: New page: Map Check
+[2019.12.08-18.47.36:177][  0]LightingResults: New page: Lighting Build
+[2019.12.08-18.47.36:211][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.12.08-18.47.36:275][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.12.08-18.47.36:278][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.08-18.47.36:313][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.12.08-18.47.36:313][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.08-18.47.36:313][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2019.12.08-18.47.36:313][  0]LogFileHelpers: Loading map 'NewMap' took 0.140
+[2019.12.08-18.47.36:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.47.36:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.47.36:416][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.47.36:422][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.47.36:428][  0]LogCollectionManager: Loaded 0 collections in 0.001804 seconds
+[2019.12.08-18.47.36:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Collections/' took 0.00s
+[2019.12.08-18.47.36:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Developers/jpdante/Collections/' took 0.00s
+[2019.12.08-18.47.36:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Collections/' took 0.00s
+[2019.12.08-18.47.36:435][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.08-18.47.36:443][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2884 classes and 692 folders.
+[2019.12.08-18.47.36:450][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.08-18.47.36:477][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.08-18.47.36:487][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.12.08-18.47.36:502][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.08-18.47.36:503][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.08-18.47.36:508][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.08-18.47.36:508][  0]LogSlate: Took 0.000066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.08-18.47.36:596][  0]LogRenderer: Reallocating scene render targets to support 1228x588 Format 10 NumSamples 1 (Frame:1).
+[2019.12.08-18.47.36:670][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.08-18.47.36:670][  0]LogLoad: (Engine Initialization) Total time: 5.94 seconds
+[2019.12.08-18.47.36:670][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.08-18.47.36:706][  0]LogAssetRegistry: Asset discovery search completed in 3.6312 seconds
+[2019.12.08-18.47.36:709][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.12.08-18.47.36:710][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000177 seconds (updated 0 objects)
+[2019.12.08-18.47.36:711][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.08-18.47.36:766][  4]LogPython: tcp server spawned on 127.0.0.1:13428
+[2019.12.08-18.47.41:677][592]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.47.44:044][873]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-18.47.58:506][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-18.47.59:648][582]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.02:633][940]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.08-18.48.02:641][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.12.08-18.48.02:642][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.08-18.48.02:642][940]PIE: New page: PIE session: NewMap (Dec 8, 2019, 1:48:02 PM)
+[2019.12.08-18.48.02:643][940]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.08-18.48.02:645][940]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.12.08-18.48.02:648][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002764s)
+[2019.12.08-18.48.02:649][940]LogAIModule: Creating AISystem for world NewMap
+[2019.12.08-18.48.02:649][940]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2019.12.08-18.48.02:649][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004365s)
+[2019.12.08-18.48.02:700][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.12.08-18.48.02:716][940]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.08-18.48.02:836][940]LogInit: FAudioDevice initialized.
+[2019.12.08-18.48.02:847][940]LogLoad: Game class is 'GameModeBase'
+[2019.12.08-18.48.02:849][940]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.12.08-15.48.02
+[2019.12.08-18.48.02:850][940]LogWorld: Bringing up level for play took: 0.001224
+[2019.12.08-18.48.02:850][940]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2019.12.08-18.48.02:869][940]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.12.08-18.48.02:872][940]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.146
+[2019.12.08-18.48.02:872][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.12.08-18.48.03:675][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.12.08-18.48.03:675][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.48.03:676][ 33]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewMap
+[2019.12.08-18.48.03:676][ 33]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-18.48.03:685][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.08-18.48.03:685][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.12.08-18.48.03:723][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.48.03:725][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.12.08-18.48.03:778][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.12.08-18.48.05:788][275]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.08-18.48.05:795][275]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/NewMap.NewMap:PersistentLevel.NewMap
+[2019.12.08-18.48.06:102][275]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.12.08-18.48.06:992][275]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.08-18.48.07:025][276]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.14:206][644]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.33:315][242]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.38:549][335]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.43:603][350]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.48:653][365]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.53:702][380]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.48.58:747][395]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.03:789][410]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.25:545][785]BlueprintLog: New page: Compile NewMap
+[2019.12.08-18.49.25:755][785]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.12.08-18.49.25:771][786]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.31:088][916]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.36:096][931]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.41:107][946]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.46:114][961]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.51:144][976]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.49.56:190][991]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.01:198][  6]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.06:248][ 21]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.11:271][ 36]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.16:288][ 51]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.21:303][ 66]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.26:308][ 81]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.31:331][ 96]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.36:359][111]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.41:378][126]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.46:396][141]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.51:426][156]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.50.56:442][171]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.01:459][186]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.06:476][201]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.22:272][498]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.27:299][513]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.32:320][528]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.37:335][543]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.42:353][558]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.47:369][573]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.52:388][588]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.51.57:406][603]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.02:421][618]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.07:432][633]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.12:435][648]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.17:441][663]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.22:447][678]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.27:459][693]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.32:470][708]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.37:471][723]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.42:485][738]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.47:493][753]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.52:518][768]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.52.57:550][783]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.02:562][798]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.07:576][813]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.12:585][828]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.17:591][843]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.22:592][858]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.27:607][873]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.32:624][888]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.37:649][903]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.42:669][918]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.47:684][933]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.52:695][948]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.53.57:715][963]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.02:721][978]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.07:721][993]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.12:732][  8]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.17:743][ 23]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.22:748][ 38]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.27:771][ 53]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.32:770][ 68]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.37:776][ 83]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.42:785][ 98]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.47:795][113]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.52:795][128]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.54.57:807][143]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.02:838][158]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.07:853][173]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.12:864][188]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.17:891][203]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.22:924][218]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.27:928][233]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.32:936][248]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.37:942][263]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.42:959][278]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.47:970][293]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.52:980][308]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.55.58:004][323]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.03:021][338]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.08:032][353]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.13:052][368]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.18:064][383]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.23:072][398]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.28:088][413]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.33:108][428]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.38:104][461]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.47:095][  2]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.56.52:126][ 17]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.04:666][881]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.09:677][896]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.14:688][911]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.19:721][926]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.24:778][941]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.30:790][959]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.35:800][974]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.37:854][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.12.08-18.57.38:036][980]LogSavePackage: Moving '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/NewMap_Auto1202D3E1A42D19127312F75892DDA848C.tmp' to '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.12.08-18.57.38:038][980]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.214
+[2019.12.08-18.57.38:039][980]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.214
+[2019.12.08-18.57.38:808][983]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={171270BB-4387-89BF-5639-92A9BA9465FB}
+[2019.12.08-18.57.38:808][983]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={7571C468-4367-E527-1978-FCB18A2A8E8B}
+[2019.12.08-18.57.40:817][989]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.45:831][  4]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.50:846][ 19]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.57.55:859][ 34]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.00:882][ 49]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.05:903][ 64]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.10:905][147]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.28:004][453]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.33:025][468]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.38:042][483]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.43:065][498]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.48:075][513]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.53:100][528]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.58.58:123][543]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.03:131][558]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.08:152][573]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.13:154][588]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.18:165][603]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.23:173][618]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.31:341][343]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.59.51:870][661]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.08-18.59.56:287][191]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.08:911][655]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.10:270][818]BlueprintLog: New page: Compile NewMap
+[2019.12.08-19.00.10:272][818]LogBlueprint: Error: [Compiler PersistentLevel.NewMap] This blueprint (self) is not a JoyConController, therefore ' Target ' must have a connection.
+[2019.12.08-19.00.10:460][818]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.12.08-19.00.10:803][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.08-19.00.10:841][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.12.08-19.00.10:842][846]LogBlueprint: Error: [Compiler PersistentLevel.NewMap] This blueprint (self) is not a JoyConController, therefore ' Target ' must have a connection.
+[2019.12.08-19.00.11:014][846]LogSavePackage: Moving '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/NewMap7FE35CE046328D443A846496AC253C5E.tmp' to '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap'
+[2019.12.08-19.00.11:031][846]LogFileHelpers: Saving map 'NewMap' took 0.228
+[2019.12.08-19.00.18:307][689]BlueprintLog: New page: Compile NewMap
+[2019.12.08-19.00.18:308][689]LogBlueprint: Error: [Compiler PersistentLevel.NewMap] This blueprint (self) is not a JoyConController, therefore ' Target ' must have a connection.
+[2019.12.08-19.00.18:501][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.12.08-19.00.18:518][690]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.18:818][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.08-19.00.18:857][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.12.08-19.00.18:858][702]LogBlueprint: Error: [Compiler PersistentLevel.NewMap] This blueprint (self) is not a JoyConController, therefore ' Target ' must have a connection.
+[2019.12.08-19.00.19:033][702]LogSavePackage: Moving '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/NewMap06D280DF4330060EE6855A87C12AC9B4.tmp' to '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap'
+[2019.12.08-19.00.19:047][702]LogFileHelpers: Saving map 'NewMap' took 0.230
+[2019.12.08-19.00.23:596][227]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.32:605][140]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.37:611][155]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.42:551][261]LogSlate: Window 'NewMap' being destroyed
+[2019.12.08-19.00.42:555][261]LogSlate: Window 'NewMap' being destroyed
+[2019.12.08-19.00.42:562][261]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-19.00.42:667][270]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.49:072][ 25]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.54:072][625]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.00.59:072][225]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.04:075][824]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.09:075][424]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.14:075][ 24]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.15:274][166]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.08-19.01.19:159][632]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.24:268][697]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.30:390][ 67]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-19.01.31:320][176]Candidate modules for hot reload:
+[2019.12.08-19.01.31:320][176]  JoyConDriver
+[2019.12.08-19.01.31:320][176]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,2466 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-19.01.39:918][176]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 2:01:39 PM
+[2019.12.08-19.01.39:918][176]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-19.01.39:918][176]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-19.01.39:918][176]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-19.01.39:919][176]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,3237904 seconds
+[2019.12.08-19.01.39:919][176]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-19.01.39:919][176]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.08-19.01.39:919][176]CompilerResultsLog:   [1/4] Module.JoyConDriver.cpp
+[2019.12.08-19.01.39:919][176]CompilerResultsLog:   [2/4] UE4Editor-JoyConDriver-2466.lib
+[2019.12.08-19.01.39:919][176]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-2466.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-2466.exp
+[2019.12.08-19.01.39:920][176]CompilerResultsLog:   [3/4] UE4Editor-JoyConDriver-2466.dll
+[2019.12.08-19.01.39:920][176]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-2466.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-2466.suppressed.exp
+[2019.12.08-19.01.39:920][176]CompilerResultsLog:   [4/4] SampleProjectEditor.target
+[2019.12.08-19.01.39:921][176]CompilerResultsLog: Total time in Parallel executor: 2,13 seconds
+[2019.12.08-19.01.39:921][176]CompilerResultsLog: Total execution time: 8,53 seconds
+[2019.12.08-19.01.39:921][176]LogMainFrame: MainFrame: Module compiling took 8.605 seconds
+[2019.12.08-19.01.39:959][176]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.12.08-19.01.39:959][176]LogTemp: Display: JoyConDriver Module shutdown!
+[2019.12.08-19.01.39:966][176]LogClass: EJoyConState HotReload.
+[2019.12.08-19.01.39:968][176]LogTemp: Display: JoyConDriver Module started!
+[2019.12.08-19.01.39:970][176]LogContentBrowser: Native class hierarchy updated for 'JoyConDriver' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2019.12.08-19.01.39:974][176]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.08-19.01.40:052][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.12.08-19.01.40:069][176]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2885 classes and 694 folders.
+[2019.12.08-19.01.40:069][176]Display: HotReload took  8.8s.
+[2019.12.08-19.01.40:071][176]Warning: HotReload operation took  8.8s.
+[2019.12.08-19.02.56:052][866]Candidate modules for hot reload:
+[2019.12.08-19.02.56:052][866]  JoyConDriver
+[2019.12.08-19.02.56:052][866]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,266 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-19.03.05:593][866]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 2:03:05 PM
+[2019.12.08-19.03.05:593][866]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-19.03.05:593][866]CompilerResultsLog: Invalidating makefile for SampleProjectEditor (source file added)
+[2019.12.08-19.03.05:593][866]CompilerResultsLog: Using Python at: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
+[2019.12.08-19.03.05:593][866]CompilerResultsLog: [WARNING] Your Python installation is not in the system PATH environment variable.
+[2019.12.08-19.03.05:594][866]CompilerResultsLog: [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
+[2019.12.08-19.03.05:594][866]CompilerResultsLog: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs: warning: Referenced directory 'C:\Program Files\Epic Games\UE_4.23\Engine\Source\UnrealEnginePython\Public' does not exist.
+[2019.12.08-19.03.05:594][866]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-19.03.05:594][866]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-19.03.05:595][866]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,6337485 seconds
+[2019.12.08-19.03.05:595][866]CompilerResultsLog: [Adaptive unity build] Excluded from JoyConDriver.gen unity file: JoyConController.gen.cpp, JoyConDriver.init.gen.cpp
+[2019.12.08-19.03.05:595][866]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-19.03.05:595][866]CompilerResultsLog: Building 7 actions with 16 processes...
+[2019.12.08-19.03.05:595][866]CompilerResultsLog:   [1/7] JoyConDriver.init.gen.cpp
+[2019.12.08-19.03.05:595][866]CompilerResultsLog:   [2/7] Module.JoyConDriver.gen.cpp
+[2019.12.08-19.03.05:595][866]CompilerResultsLog:   [3/7] JoyConController.gen.cpp
+[2019.12.08-19.03.05:595][866]CompilerResultsLog:   [4/7] Module.JoyConDriver.cpp
+[2019.12.08-19.03.05:596][866]CompilerResultsLog:   [5/7] UE4Editor-JoyConDriver-0266.lib
+[2019.12.08-19.03.05:596][866]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0266.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0266.exp
+[2019.12.08-19.03.05:596][866]CompilerResultsLog:   [6/7] UE4Editor-JoyConDriver-0266.dll
+[2019.12.08-19.03.05:596][866]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0266.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-0266.suppressed.exp
+[2019.12.08-19.03.05:597][866]CompilerResultsLog:   [7/7] SampleProjectEditor.target
+[2019.12.08-19.03.05:597][866]CompilerResultsLog: Total time in Parallel executor: 2,11 seconds
+[2019.12.08-19.03.05:597][866]CompilerResultsLog: Total execution time: 9,47 seconds
+[2019.12.08-19.03.05:597][866]LogMainFrame: MainFrame: Module compiling took 9.549 seconds
+[2019.12.08-19.03.05:668][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.12.08-19.03.05:686][866]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2885 classes and 694 folders.
+[2019.12.08-19.03.05:686][866]Display: HotReload took  9.9s.
+[2019.12.08-19.03.05:687][866]Warning: HotReload operation took  9.9s.
+[2019.12.08-19.03.06:102][866]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.08-19.09.52:980][490]Candidate modules for hot reload:
+[2019.12.08-19.09.52:981][490]  JoyConDriver
+[2019.12.08-19.09.52:981][490]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,6051 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-19.10.02:148][490]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 2:10:02 PM
+[2019.12.08-19.10.02:148][490]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-19.10.02:148][490]CompilerResultsLog: Invalidating makefile for SampleProjectEditor (working set of source files changed)
+[2019.12.08-19.10.02:148][490]CompilerResultsLog: Using Python at: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
+[2019.12.08-19.10.02:149][490]CompilerResultsLog: [WARNING] Your Python installation is not in the system PATH environment variable.
+[2019.12.08-19.10.02:149][490]CompilerResultsLog: [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
+[2019.12.08-19.10.02:149][490]CompilerResultsLog: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs: warning: Referenced directory 'C:\Program Files\Epic Games\UE_4.23\Engine\Source\UnrealEnginePython\Public' does not exist.
+[2019.12.08-19.10.02:149][490]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-19.10.02:149][490]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-19.10.02:150][490]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,185224 seconds
+[2019.12.08-19.10.02:150][490]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-19.10.02:150][490]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.12.08-19.10.02:150][490]CompilerResultsLog:   [1/5] Module.JoyConDriver.gen.cpp
+[2019.12.08-19.10.02:150][490]CompilerResultsLog:   [2/5] Module.JoyConDriver.cpp
+[2019.12.08-19.10.02:150][490]CompilerResultsLog:   [3/5] UE4Editor-JoyConDriver-6051.lib
+[2019.12.08-19.10.02:150][490]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-6051.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-6051.exp
+[2019.12.08-19.10.02:151][490]CompilerResultsLog:   [4/5] UE4Editor-JoyConDriver-6051.dll
+[2019.12.08-19.10.02:151][490]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-6051.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-6051.suppressed.exp
+[2019.12.08-19.10.02:151][490]CompilerResultsLog:   [5/5] SampleProjectEditor.target
+[2019.12.08-19.10.02:151][490]CompilerResultsLog: Total time in Parallel executor: 2,04 seconds
+[2019.12.08-19.10.02:152][490]CompilerResultsLog: Total execution time: 9,09 seconds
+[2019.12.08-19.10.02:152][490]LogMainFrame: MainFrame: Module compiling took 9.174 seconds
+[2019.12.08-19.10.02:249][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.12.08-19.10.02:249][490]LogTemp: Display: JoyConDriver Module shutdown!
+[2019.12.08-19.10.02:254][490]LogClass: Could not find existing class JoyConBlueprintFunctions in package /Script/JoyConDriver for HotReload, assuming new class
+[2019.12.08-19.10.02:254][490]LogClass: Function GetJoyCon is new.
+[2019.12.08-19.10.02:254][490]LogClass: Function GetJoyCons is new.
+[2019.12.08-19.10.02:254][490]LogClass: Function SearchForJoyCons is new.
+[2019.12.08-19.10.02:256][490]LogClass: EJoyConState HotReload.
+[2019.12.08-19.10.02:259][490]LogTemp: Display: JoyConDriver Module started!
+[2019.12.08-19.10.02:261][490]LogContentBrowser: Native class hierarchy updated for 'JoyConDriver' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2019.12.08-19.10.02:266][490]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.08-19.10.02:349][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2019.12.08-19.10.02:366][490]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2886 classes and 694 folders.
+[2019.12.08-19.10.02:366][490]Display: HotReload took  9.4s.
+[2019.12.08-19.10.02:367][490]Warning: HotReload operation took  9.4s.
+[2019.12.08-19.10.10:606][431]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/NewMap.NewMap:PersistentLevel.NewMap
+[2019.12.08-19.10.29:671][590]BlueprintLog: New page: Compile NewMap
+[2019.12.08-19.10.29:950][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2019.12.08-19.10.33:156][957]BlueprintLog: New page: Compile NewMap
+[2019.12.08-19.10.33:157][957]LogBlueprint: Error: [Compiler PersistentLevel.NewMap] This blueprint (self) is not a JoyConBlueprintFunctions, therefore ' Target ' must have a connection.
+[2019.12.08-19.10.33:423][957]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.12.08-19.11.16:641][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.12.08-19.11.16:819][133]LogSavePackage: Moving '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/NewMap_Auto2C5928ABB446F6BCB106FD6ACEA29D18B.tmp' to '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.12.08-19.11.16:821][133]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.217
+[2019.12.08-19.11.16:821][133]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2019.12.08-19.11.17:636][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.08-19.11.17:673][207]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.12.08-19.11.17:845][207]LogSavePackage: Moving '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/NewMapB8B246F64587FFCBC175EEA455EDB793.tmp' to '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap'
+[2019.12.08-19.11.17:860][207]LogFileHelpers: Saving map 'NewMap' took 0.225
+[2019.12.08-19.11.20:640][507]Candidate modules for hot reload:
+[2019.12.08-19.11.20:640][507]  JoyConDriver
+[2019.12.08-19.11.20:641][507]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,5773 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-19.11.28:851][507]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 2:11:28 PM
+[2019.12.08-19.11.28:851][507]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-19.11.28:851][507]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-19.11.28:852][507]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-19.11.28:852][507]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,1839969 seconds
+[2019.12.08-19.11.28:852][507]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-19.11.28:853][507]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.12.08-19.11.28:853][507]CompilerResultsLog:   [1/5] Module.JoyConDriver.gen.cpp
+[2019.12.08-19.11.28:853][507]CompilerResultsLog:   [2/5] Module.JoyConDriver.cpp
+[2019.12.08-19.11.28:853][507]CompilerResultsLog:   [3/5] UE4Editor-JoyConDriver-5773.lib
+[2019.12.08-19.11.28:853][507]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5773.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5773.exp
+[2019.12.08-19.11.28:853][507]CompilerResultsLog:   [4/5] UE4Editor-JoyConDriver-5773.dll
+[2019.12.08-19.11.28:853][507]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5773.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5773.suppressed.exp
+[2019.12.08-19.11.28:854][507]CompilerResultsLog:   [5/5] SampleProjectEditor.target
+[2019.12.08-19.11.28:854][507]CompilerResultsLog: Total time in Parallel executor: 1,98 seconds
+[2019.12.08-19.11.28:854][507]CompilerResultsLog: Total execution time: 8,15 seconds
+[2019.12.08-19.11.28:854][507]LogMainFrame: MainFrame: Module compiling took 8.217 seconds
+[2019.12.08-19.11.28:891][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.12.08-19.11.28:892][507]LogTemp: Display: JoyConDriver Module shutdown!
+[2019.12.08-19.11.28:898][507]LogClass: Could not find existing class JoyConBlueprintFunctions in package /Script/JoyConDriver for HotReload, assuming new class
+[2019.12.08-19.11.28:898][507]LogClass: Function GetJoyCon is new.
+[2019.12.08-19.11.28:898][507]LogClass: Function GetJoyCons is new.
+[2019.12.08-19.11.28:898][507]LogClass: Function SearchForJoyCons is new.
+[2019.12.08-19.11.28:901][507]LogClass: EJoyConState HotReload.
+[2019.12.08-19.11.28:909][507]LogHotReload: Re-instancing JoyConBlueprintFunctions after hot-reload.
+[2019.12.08-19.11.29:069][507]LogTemp: Display: JoyConDriver Module started!
+[2019.12.08-19.11.29:071][507]LogContentBrowser: Native class hierarchy updated for 'JoyConDriver' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2019.12.08-19.11.29:076][507]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.08-19.11.29:145][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.12.08-19.11.29:161][507]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2886 classes and 694 folders.
+[2019.12.08-19.11.29:161][507]Display: HotReload took  8.5s.
+[2019.12.08-19.11.29:163][507]Warning: HotReload operation took  8.5s.
+[2019.12.08-19.14.28:961][162]BlueprintLog: New page: Compile NewMap
+[2019.12.08-19.14.29:243][162]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2019.12.08-19.14.29:730][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.08-19.14.29:778][201]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2019.12.08-19.14.29:999][201]LogSavePackage: Moving '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/NewMap23D2FCD7495A7009749D44AE3708ADEB.tmp' to '../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap'
+[2019.12.08-19.14.30:014][201]LogFileHelpers: Saving map 'NewMap' took 0.284
+[2019.12.08-19.14.38:521][618]LogSlate: Window 'NewMap' being destroyed
+[2019.12.08-19.14.38:524][618]LogSlate: Window 'NewMap' being destroyed
+[2019.12.08-19.14.38:524][618]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-19.14.56:930][783]Candidate modules for hot reload:
+[2019.12.08-19.14.56:930][783]  JoyConDriver
+[2019.12.08-19.14.56:930][783]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,1845 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-19.15.06:224][783]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 2:15:06 PM
+[2019.12.08-19.15.06:224][783]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-19.15.06:224][783]CompilerResultsLog: Invalidating makefile for SampleProjectEditor (source file added)
+[2019.12.08-19.15.06:224][783]CompilerResultsLog: Using Python at: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
+[2019.12.08-19.15.06:225][783]CompilerResultsLog: [WARNING] Your Python installation is not in the system PATH environment variable.
+[2019.12.08-19.15.06:225][783]CompilerResultsLog: [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
+[2019.12.08-19.15.06:225][783]CompilerResultsLog: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs: warning: Referenced directory 'C:\Program Files\Epic Games\UE_4.23\Engine\Source\UnrealEnginePython\Public' does not exist.
+[2019.12.08-19.15.06:225][783]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-19.15.06:225][783]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-19.15.06:226][783]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,3343162 seconds
+[2019.12.08-19.15.06:226][783]CompilerResultsLog: [Adaptive unity build] Excluded from JoyConDriver.gen unity file: JoyConBlueprintFunctions.gen.cpp, JoyConController.gen.cpp, JoyConDriver.init.gen.cpp
+[2019.12.08-19.15.06:226][783]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-19.15.06:226][783]CompilerResultsLog: Building 7 actions with 16 processes...
+[2019.12.08-19.15.06:226][783]CompilerResultsLog:   [1/7] JoyConDriver.init.gen.cpp
+[2019.12.08-19.15.06:226][783]CompilerResultsLog:   [2/7] Module.JoyConDriver.gen.cpp
+[2019.12.08-19.15.06:226][783]CompilerResultsLog:   [3/7] JoyConBlueprintFunctions.gen.cpp
+[2019.12.08-19.15.06:227][783]CompilerResultsLog:   [4/7] Module.JoyConDriver.cpp
+[2019.12.08-19.15.06:227][783]CompilerResultsLog:   [5/7] UE4Editor-JoyConDriver-1845.lib
+[2019.12.08-19.15.06:227][783]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-1845.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-1845.exp
+[2019.12.08-19.15.06:227][783]CompilerResultsLog:   [6/7] UE4Editor-JoyConDriver-1845.dll
+[2019.12.08-19.15.06:227][783]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-1845.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-1845.suppressed.exp
+[2019.12.08-19.15.06:228][783]CompilerResultsLog:   [7/7] SampleProjectEditor.target
+[2019.12.08-19.15.06:228][783]CompilerResultsLog: Total time in Parallel executor: 2,19 seconds
+[2019.12.08-19.15.06:228][783]CompilerResultsLog: Total execution time: 9,23 seconds
+[2019.12.08-19.15.06:228][783]LogMainFrame: MainFrame: Module compiling took 9.302 seconds
+[2019.12.08-19.15.06:292][783]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.12.08-19.15.06:292][783]LogTemp: Display: JoyConDriver Module shutdown!
+[2019.12.08-19.15.06:302][783]LogClass: Could not find existing class DriverEventBinder in package /Script/JoyConDriver for HotReload, assuming new class
+[2019.12.08-19.15.06:303][783]LogClass: EJoyConState HotReload.
+[2019.12.08-19.15.06:305][783]LogTemp: Display: JoyConDriver Module started!
+[2019.12.08-19.15.06:308][783]LogContentBrowser: Native class hierarchy updated for 'JoyConDriver' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2019.12.08-19.15.06:313][783]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.12.08-19.15.06:409][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.12.08-19.15.06:427][783]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2887 classes and 694 folders.
+[2019.12.08-19.15.06:427][783]Display: HotReload took  9.6s.
+[2019.12.08-19.15.06:429][783]Warning: HotReload operation took  9.6s.
+[2019.12.08-19.15.07:202][783]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.08-19.15.07:507][783]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.08-19.22.01:920][965]Candidate modules for hot reload:
+[2019.12.08-19.22.01:920][965]  JoyConDriver
+[2019.12.08-19.22.01:920][965]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,5740 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-19.22.10:208][965]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 2:22:10 PM
+[2019.12.08-19.22.10:208][965]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-19.22.10:208][965]CompilerResultsLog: Invalidating makefile for SampleProjectEditor (working set of source files changed)
+[2019.12.08-19.22.10:208][965]CompilerResultsLog: Using Python at: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
+[2019.12.08-19.22.10:208][965]CompilerResultsLog: [WARNING] Your Python installation is not in the system PATH environment variable.
+[2019.12.08-19.22.10:209][965]CompilerResultsLog: [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
+[2019.12.08-19.22.10:209][965]CompilerResultsLog: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs: warning: Referenced directory 'C:\Program Files\Epic Games\UE_4.23\Engine\Source\UnrealEnginePython\Public' does not exist.
+[2019.12.08-19.22.10:209][965]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-19.22.10:209][965]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-19.22.10:209][965]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,1717441 seconds
+[2019.12.08-19.22.10:210][965]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-19.22.10:210][965]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.12.08-19.22.10:210][965]CompilerResultsLog:   [1/5] Module.JoyConDriver.gen.cpp
+[2019.12.08-19.22.10:210][965]CompilerResultsLog:   [2/5] Module.JoyConDriver.cpp
+[2019.12.08-19.22.10:210][965]CompilerResultsLog:    C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Source/JoyConDriver/Private/DriverEventBinder.cpp(7) : error C2664: 'void TBaseDynamicMulticastDelegate<FWeakObjectPtr,void>::__Internal_AddDynamic<UDriverEventBinder>(UserClass *,void (__cdecl UDriverEventBinder::* )(void),FName)': cannot convert argument 2 from 'void (__cdecl *)(void)' to 'void (__cdecl UDriverEventBinder::* )(void)'
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:           with
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:           [
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:               UserClass=UDriverEventBinder
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:           ]
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:   C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Source/JoyConDriver/Private/DriverEventBinder.cpp(7): note: There is no context in which this conversion is possible
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl(1209): note: see declaration of 'TBaseDynamicMulticastDelegate<FWeakObjectPtr,void>::__Internal_AddDynamic'
+[2019.12.08-19.22.10:211][965]CompilerResultsLog:    C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Source/JoyConDriver/Private/JoyConController.cpp(172) : error C2039: 'NewControllerConnected': is not a member of 'UJoyConController'
+[2019.12.08-19.22.10:212][965]CompilerResultsLog:   C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Inc\JoyConDriver\JoyConBlueprintFunctions.generated.h(11): note: see declaration of 'UJoyConController'
+[2019.12.08-19.22.10:212][965]LogMainFrame: MainFrame: Module compiling took 8.295 seconds
+[2019.12.08-19.22.10:212][965]Warning: HotReload failed, recompile failed
+[2019.12.08-19.22.10:216][965]Warning: RebindPackages failed because compilation failed.
+[2019.12.08-19.33.37:581][753]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2019.12.08-19.33.37:621][753]LogSlate: Window 'SampleProject - Unreal Editor' being destroyed
+[2019.12.08-19.33.37:720][754]Cmd: QUIT_EDITOR
+[2019.12.08-19.33.37:927][754]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.08-19.33.37:938][754]LogExit: Preparing to exit.
+[2019.12.08-19.33.38:996][754]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.12.08-19.33.39:012][754]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-19.33.39:012][754]LogExit: Editor shut down
+[2019.12.08-19.33.39:013][754]LogExit: Transaction tracking system shut down
+[2019.12.08-19.33.39:282][754]LogExit: Object subsystem successfully closed.
+[2019.12.08-19.33.39:318][754]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module JoyConDriver (688)
+[2019.12.08-19.33.39:344][754]LogTemp: Display: JoyConDriver Module shutdown!
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module BlueprintGraph (684)
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (682)
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module Voice (680)
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (678)
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (676)
+[2019.12.08-19.33.39:344][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (674)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (673)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (670)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module CollectionManager (668)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module StatsViewer (666)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (664)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (662)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (660)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module MeshPaintMode (658)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (656)
+[2019.12.08-19.33.39:346][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (654)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module GeometryMode (652)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (650)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module BspMode (648)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (646)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (644)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (642)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module OculusMR (640)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (638)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (636)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (634)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module PlacementMode (633)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MaterialEditor (632)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (628)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (626)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (624)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (622)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (620)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module WebMMedia (618)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (616)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (614)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (613)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (610)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (608)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (606)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (604)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (602)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (600)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (598)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (596)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (594)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (592)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (590)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module CharacterAI (588)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (586)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module SessionServices (584)
+[2019.12.08-19.33.39:347][754]LogModuleManager: Shutting down and abandoning module MeshPaint (582)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (580)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module ViewportInteraction (578)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module ClothPainter (576)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (575)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (572)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (570)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (569)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (566)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (564)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (562)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (560)
+[2019.12.08-19.33.39:348][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (559)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (556)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (554)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (552)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (550)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (548)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (546)
+[2019.12.08-19.33.40:307][754]LogModuleManager: Shutting down and abandoning module MergeActors (544)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (542)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module LocalizationService (541)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (538)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (536)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module UndoHistory (534)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module XmlParser (532)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module Blutility (530)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (528)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (527)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (524)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (522)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (520)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (518)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (516)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module DeviceManager (514)
+[2019.12.08-19.33.40:308][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (513)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module AutomationController (510)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (508)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module Layers (506)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (504)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (502)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (500)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (498)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module Persona (496)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (495)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module AnimGraph (493)
+[2019.12.08-19.33.40:352][754]LogModuleManager: Shutting down and abandoning module Kismet (490)
+[2019.12.08-19.33.40:361][754]LogModuleManager: Shutting down and abandoning module KismetWidgets (489)
+[2019.12.08-19.33.40:362][754]LogModuleManager: Shutting down and abandoning module GraphEditor (486)
+[2019.12.08-19.33.40:362][754]LogModuleManager: Shutting down and abandoning module StructViewer (484)
+[2019.12.08-19.33.40:362][754]LogModuleManager: Shutting down and abandoning module ClassViewer (482)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module Toolbox (480)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (479)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module ModuleUI (476)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (474)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module OutputLog (472)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module GammaUI (470)
+[2019.12.08-19.33.40:363][754]LogModuleManager: Shutting down and abandoning module Documentation (468)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module LiveCoding (466)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module LevelSequence (464)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (462)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module MovieScene (460)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (458)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module LauncherPlatform (456)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (454)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module PortalServices (452)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module PortalRpc (450)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (448)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module AIModule (446)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (445)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module AITestSuite (443)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module NavigationSystem (441)
+[2019.12.08-19.33.40:364][754]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (438)
+[2019.12.08-19.33.40:368][754]LogModuleManager: Shutting down and abandoning module ProfilerService (436)
+[2019.12.08-19.33.40:500][754]LogModuleManager: Shutting down and abandoning module TaskGraph (434)
+[2019.12.08-19.33.40:500][754]LogModuleManager: Shutting down and abandoning module PythonEditor (432)
+[2019.12.08-19.33.40:501][754]LogModuleManager: Shutting down and abandoning module UnrealEnginePython (428)
+[2019.12.08-19.33.40:501][754]LogPython: Goodbye Python
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module ScreenshotTools (426)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module SteamVRController (424)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (422)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (420)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module OculusEditor (418)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module OculusInput (416)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (414)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module EditableMesh (412)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (410)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module CableComponent (408)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AudioCapture (406)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (404)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (402)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AppleImageUtils (400)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (388)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (386)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (384)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (382)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (380)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (378)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module BackChannel (376)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (374)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AutomationUtils (372)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AlembicImporter (370)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module AlembicLibrary (369)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module GeometryCache (368)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (367)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module VariantManagerContent (362)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (360)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (358)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (356)
+[2019.12.08-19.33.40:540][754]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (354)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (352)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module CurveEditorTools (350)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module CurveEditor (349)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (346)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module CryptoKeys (344)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (340)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (338)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (336)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (332)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module SourceControl (331)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (328)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (326)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (324)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (320)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (318)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (316)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (314)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module SampleProject (312)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module PythonConsole (310)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.12.08-19.33.40:541][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.12.08-19.33.40:642][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.12.08-19.33.40:742][754]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.12.08-19.33.40:742][754]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.12.08-19.33.40:743][754]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.12.08-19.33.40:743][754]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.12.08-19.33.40:744][754]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.12.08-19.33.40:744][754]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.12.08-19.33.40:744][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.12.08-19.33.40:745][754]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.12.08-19.33.40:745][754]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.12.08-19.33.40:745][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.12.08-19.33.40:745][754]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.12.08-19.33.40:745][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.12.08-19.33.40:747][754]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.12.08-19.33.40:747][754]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.12.08-19.33.40:747][754]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.12.08-19.33.40:747][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.12.08-19.33.40:748][754]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.12.08-19.33.40:750][754]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.12.08-19.33.40:751][754]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.12.08-19.33.40:751][754]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.12.08-19.33.40:751][754]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.12.08-19.33.40:751][754]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.12.08-19.33.40:751][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.12.08-19.33.40:786][754]LogDerivedDataCache: Shutdown
+[2019.12.08-19.33.40:786][754]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.12.08-19.33.40:787][754]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.12.08-19.33.40:799][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.12.08-19.33.40:799][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.12.08-19.33.40:799][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.12.08-19.33.40:799][754]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.12.08-19.33.40:799][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.12.08-19.33.40:803][754]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.12.08-19.33.40:803][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.12.08-19.33.40:806][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.12.08-19.33.40:806][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.12.08-19.33.40:833][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.12.08-19.33.40:833][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.12.08-19.33.40:833][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.12.08-19.33.40:833][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.12.08-19.33.40:834][754]LogHMD: Freeing OpenVRDLLHandle.
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.12.08-19.33.40:834][754]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.12.08-19.33.40:835][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.12.08-19.33.40:835][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.12.08-19.33.40:835][754]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.12.08-19.33.40:835][754]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.12.08-19.33.40:840][754]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.12.08-19.33.40:841][754]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.12.08-19.33.40:841][754]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B07A80DAC-426E-7160-32D0-ECA6D17BD640%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=189aaaee42de0c8b88d9979a54a01d95%7C2414307bf6d34fc6a2bf3a15c2399728%7Cb69436f6-96eb-441a-8ede-b6033480b90f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.12.08-19.33.40:844][754]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.12.08-19.33.40:846][754]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.12.08-19.33.40:847][754]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.12.08-19.33.40:848][754]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.12.08-19.33.40:849][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.12.08-19.33.40:849][754]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.12.08-19.33.40:849][754]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.12.08-19.33.40:849][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.12.08-19.33.40:851][754]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.12.08-19.33.40:851][754]LogD3D11RHI: Shutdown
+[2019.12.08-19.33.40:851][754]LogD3D11RHI: CleanupD3DDevice
+[2019.12.08-19.33.40:852][754]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.08-19.33.40:852][754]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.08-19.33.40:852][754]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.08-19.33.40:911][754]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.08-19.33.40:925][754]LogExit: Exiting.
+[2019.12.08-19.33.40:945][754]Log file closed, 12/08/19 16:33:40

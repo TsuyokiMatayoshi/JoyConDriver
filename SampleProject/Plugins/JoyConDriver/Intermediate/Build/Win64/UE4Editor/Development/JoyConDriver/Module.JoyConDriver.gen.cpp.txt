@@ -1,11 +1,18 @@
 C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Definitions.JoyConDriver.h
-C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Intermediate/Build/Win64/UE4Editor/Inc/JoyConDriver/JoyConController.gen.cpp
+C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Intermediate/Build/Win64/UE4Editor/Inc/JoyConDriver/DriverEventBinder.gen.cpp
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver/Public/JoyConController.h
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver/Public/DriverEventBinder.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Inc\JoyConDriver\DriverEventBinder.generated.h
+C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Intermediate/Build/Win64/UE4Editor/Inc/JoyConDriver/JoyConBlueprintFunctions.gen.cpp
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver/Public/JoyConBlueprintFunctions.h
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Public\JoyConController.h
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Public\hidapi.h
 C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Inc\JoyConDriver\JoyConController.generated.h
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Inc\JoyConDriver\JoyConBlueprintFunctions.generated.h
+C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Intermediate/Build/Win64/UE4Editor/Inc/JoyConDriver/JoyConController.gen.cpp
 C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Plugins/JoyConDriver/Intermediate/Build/Win64/UE4Editor/Inc/JoyConDriver/JoyConDriver.init.gen.cpp

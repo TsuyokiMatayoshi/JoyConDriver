@@ -13,11 +13,79 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeJoyConController() {}
 // Cross Module References
+	JOYCONDRIVER_API UEnum* Z_Construct_UEnum_JoyConDriver_EJoyConState();
+	UPackage* Z_Construct_UPackage__Script_JoyConDriver();
 	JOYCONDRIVER_API UClass* Z_Construct_UClass_UJoyConController_NoRegister();
 	JOYCONDRIVER_API UClass* Z_Construct_UClass_UJoyConController();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
-	UPackage* Z_Construct_UPackage__Script_JoyConDriver();
 // End Cross Module References
+	static UEnum* EJoyConState_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_JoyConDriver_EJoyConState, Z_Construct_UPackage__Script_JoyConDriver(), TEXT("EJoyConState"));
+		}
+		return Singleton;
+	}
+	template<> JOYCONDRIVER_API UEnum* StaticEnum<EJoyConState>()
+	{
+		return EJoyConState_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EJoyConState(EJoyConState_StaticEnum, TEXT("/Script/JoyConDriver"), TEXT("EJoyConState"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_JoyConDriver_EJoyConState_Hash() { return 3947479116U; }
+	UEnum* Z_Construct_UEnum_JoyConDriver_EJoyConState()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_JoyConDriver();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EJoyConState"), 0, Get_Z_Construct_UEnum_JoyConDriver_EJoyConState_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "Not_Attached", (int64)Not_Attached },
+				{ "Dropped", (int64)Dropped },
+				{ "No_Joycons", (int64)No_Joycons },
+				{ "Attached", (int64)Attached },
+				{ "Input_Mode_0_X30", (int64)Input_Mode_0_X30 },
+				{ "Imu_Data_OK", (int64)Imu_Data_OK },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Attached.DisplayName", "Attached" },
+				{ "Attached.Name", "Attached" },
+				{ "BlueprintType", "true" },
+				{ "Dropped.DisplayName", "Dropped" },
+				{ "Dropped.Name", "Dropped" },
+				{ "Imu_Data_OK.DisplayName", "IMUDataOk" },
+				{ "Imu_Data_OK.Name", "Imu_Data_OK" },
+				{ "Input_Mode_0_X30.DisplayName", "InputMode_0_x30" },
+				{ "Input_Mode_0_X30.Name", "Input_Mode_0_X30" },
+				{ "ModuleRelativePath", "Public/JoyConController.h" },
+				{ "No_Joycons.DisplayName", "NoJoycons" },
+				{ "No_Joycons.Name", "No_Joycons" },
+				{ "Not_Attached.DisplayName", "NotAttached" },
+				{ "Not_Attached.Name", "Not_Attached" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_JoyConDriver,
+				nullptr,
+				"EJoyConState",
+				"EJoyConState",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::Regular,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void UJoyConController::StaticRegisterNativesUJoyConController()
 	{
 	}
@@ -40,7 +108,6 @@ void EmptyLinkFunctionForGeneratedCodeJoyConController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UJoyConController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "JoyConController.h" },
 		{ "ModuleRelativePath", "Public/JoyConController.h" },
 	};
@@ -72,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeJoyConController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UJoyConController, 160593514);
+	IMPLEMENT_CLASS(UJoyConController, 3231303767);
 	template<> JOYCONDRIVER_API UClass* StaticClass<UJoyConController>()
 	{
 		return UJoyConController::StaticClass();

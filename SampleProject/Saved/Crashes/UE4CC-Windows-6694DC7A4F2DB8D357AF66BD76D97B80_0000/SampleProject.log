@@ -1,0 +1,867 @@
+﻿Log file open, 12/08/19 15:08:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SampleProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.068208
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin UnrealEnginePython
+LogPluginManager: Mounting plugin JoyConDriver
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.08-18.08.01:129][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:129][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:131][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.08-18.08.01:131][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.08-18.08.01:132][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.08-18.08.01:132][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.08-18.08.01:132][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.08-18.08.01:135][  0]LogHAL: Display: Platform has ~ 16 GB [17128579072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.08-18.08.01:135][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.08-18.08.01:135][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.08-18.08.01:135][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.08-18.08.01:136][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Config/Windows/Engine.ini]
+[2019.12.08-18.08.01:136][  0]LogInit: Computer: DESKTOP-MSO4SAP
+[2019.12.08-18.08.01:136][  0]LogInit: User: jpdante
+[2019.12.08-18.08.01:136][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.12.08-18.08.01:136][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.08-18.08.01:136][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.12.08-18.08.01:137][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.08-18.08.01:137][  0]LogMemory: Process Physical Memory: 102.03 MB used, 102.04 MB peak
+[2019.12.08-18.08.01:137][  0]LogMemory: Process Virtual Memory: 102.35 MB used, 102.35 MB peak
+[2019.12.08-18.08.01:137][  0]LogMemory: Physical Memory: 8622.20 MB used,  7712.89 MB free, 16335.09 MB total
+[2019.12.08-18.08.01:137][  0]LogMemory: Virtual Memory: 4703.77 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.12.08-18.08.01:138][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.08-18.08.01:160][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.08-18.08.01:160][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.12.08-18.08.01:304][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.08-18.08.01:332][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.08-18.08.01:332][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.08-18.08.01:460][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.08-18.08.01:460][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.08-18.08.01:524][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.12.08-18.08.01:524][  0]LogD3D11RHI:       4043/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.08-18.08.01:526][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.08-18.08.01:526][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.08-18.08.01:526][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.08-18.08.01:534][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.08-18.08.01:535][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.08-18.08.01:535][  0]LogWindows: EnumDisplayDevices:
+[2019.12.08-18.08.01:535][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.12.08-18.08.01:535][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.12.08-18.08.01:535][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.12.08-18.08.01:535][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.12.08-18.08.01:535][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.08-18.08.01:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.12.08-18.08.01:536][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2019.12.08-18.08.01:536][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2019.12.08-18.08.01:536][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.12.08-18.08.01:577][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.08-18.08.01:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.08-18.08.01:833][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.08-18.08.01:842][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.08-18.08.01:850][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.08-18.08.01:859][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.08-18.08.01:868][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.08-18.08.01:877][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.08-18.08.01:885][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.08-18.08.01:894][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.08-18.08.01:898][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.08-18.08.01:928][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.08-18.08.01:929][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.08-18.08.01:930][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.08-18.08.01:947][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.08-18.08.01:947][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.08-18.08.01:960][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.08-18.08.01:960][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.08-18.08.01:967][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.08-18.08.01:973][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.08-18.08.01:980][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.08-18.08.01:987][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.08-18.08.02:010][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.08-18.08.02:010][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.08-18.08.02:010][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.08-18.08.02:019][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.08-18.08.02:069][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Intermediate/Shaders/WorkingDirectory/6560/).
+[2019.12.08-18.08.02:069][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpdante/AppData/Local/Temp/UnrealShaderWorkingDir/26A938494FD565998BE8A09F6B997F4C/'.
+[2019.12.08-18.08.02:071][  0]LogXGEController: Cleaning working directory: C:/Users/jpdante/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.08-18.08.02:072][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.08-18.08.02:072][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.08-18.08.02:072][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.08-18.08.02:633][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.08-18.08.02:677][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.08-18.08.02:677][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.08-18.08.02:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.08-18.08.02:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.08-18.08.02:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.08-18.08.02:677][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.08-18.08.02:688][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.08-18.08.02:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.08-18.08.02:688][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.08-18.08.02:689][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpdante/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.08-18.08.02:689][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.08-18.08.02:689][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.08-18.08.02:710][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.08-18.08.02:713][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.08-18.08.02:713][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.08-18.08.02:762][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2019.12.08-18.08.03:018][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.08-18.08.03:154][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.08-18.08.03:154][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.08-18.08.03:154][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.08-18.08.03:154][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.08-18.08.03:154][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.08-18.08.03:162][  0]LogNetVersion: SampleProject 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 302111088)
+[2019.12.08-18.08.03:527][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 1 prioritized culture(s) in 0.041582 seconds
+[2019.12.08-18.08.03:535][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.08-18.08.03:535][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.08-18.08.03:535][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.08-18.08.04:249][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.08-18.08.04:252][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.08-18.08.04:312][  0]SourceControl: Source control is disabled
+[2019.12.08-18.08.04:312][  0]SourceControl: Source control is disabled
+[2019.12.08-18.08.04:313][  0]SourceControl: Source control is disabled
+[2019.12.08-18.08.04:314][  0]SourceControl: Source control is disabled
+[2019.12.08-18.08.04:386][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.08-18.08.04:488][  0]LogOcInput: OculusInput pre-init called
+[2019.12.08-18.08.04:493][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.08-18.08.04:493][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.08-18.08.04:507][  0]LogPython: Python Scripts search path: ../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Scripts
+[2019.12.08-18.08.04:507][  0]LogPython: Python Scripts search path: ../../../Engine/Plugins/UnrealEnginePython
+[2019.12.08-18.08.04:507][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2019.12.08-18.08.04:614][  0]LogPython: ####################----------Python Integration for Megascans Initialized----------####################
+[2019.12.08-18.08.04:614][  0]LogPython: 
+
+[2019.12.08-18.08.04:614][  0]LogPython: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\
+[2019.12.08-18.08.04:614][  0]LogPython: 
+
+[2019.12.08-18.08.04:660][  0]LogPython: Megascans Integration - LiveLink Initialized...
+[2019.12.08-18.08.04:660][  0]LogPython: 
+
+[2019.12.08-18.08.04:661][  0]LogPython: ue_site Python module successfully imported
+[2019.12.08-18.08.04:663][  0]LogTemp: Display: JoyConDriver Module started!
+[2019.12.08-18.08.04:726][  0]LogEngine: Initializing Engine...
+[2019.12.08-18.08.04:727][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.08-18.08.04:728][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.08-18.08.04:923][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.08-18.08.04:937][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.08-18.08.04:960][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.08-18.08.05:105][  0]LogInit: FAudioDevice initialized.
+[2019.12.08-18.08.05:105][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.08-18.08.05:155][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/jpdante/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.08-18.08.05:159][  0]LogInit: Texture streaming: Enabled
+[2019.12.08-18.08.05:178][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.08-18.08.05:179][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={CFA0E675-4E14-C837-742C-7AB2E995D81A}
+[2019.12.08-18.08.05:179][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.08-18.08.05:179][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.08-18.08.05:220][  0]LogInit: Transaction tracking system initialized
+[2019.12.08-18.08.05:253][  0]BlueprintLog: New page: Editor Load
+[2019.12.08-18.08.05:326][  0]LocalizationService: Localization service is disabled
+[2019.12.08-18.08.05:763][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/' took 0.00s
+[2019.12.08-18.08.05:763][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.08-18.08.05:763][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.08-18.08.05:926][  0]SourceControl: Source control is disabled
+[2019.12.08-18.08.05:927][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.08-18.08.05:927][  0]LightingResults: New page: Lighting Build
+[2019.12.08-18.08.05:930][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.08-18.08.05:930][  0]MapCheck: New page: Map Check
+[2019.12.08-18.08.05:930][  0]LightingResults: New page: Lighting Build
+[2019.12.08-18.08.05:966][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.12.08-18.08.06:035][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.12.08-18.08.06:038][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.08-18.08.06:071][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.12.08-18.08.06:071][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.08-18.08.06:071][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.132ms to complete.
+[2019.12.08-18.08.06:072][  0]LogFileHelpers: Loading map 'NewMap' took 0.145
+[2019.12.08-18.08.06:169][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.08.06:175][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.08.06:182][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.08.06:189][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.08-18.08.06:195][  0]LogCollectionManager: Loaded 0 collections in 0.001892 seconds
+[2019.12.08-18.08.06:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Saved/Collections/' took 0.00s
+[2019.12.08-18.08.06:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Developers/jpdante/Collections/' took 0.00s
+[2019.12.08-18.08.06:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/Content/Collections/' took 0.00s
+[2019.12.08-18.08.06:202][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.08-18.08.06:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2884 classes and 692 folders.
+[2019.12.08-18.08.06:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.08-18.08.06:248][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.08-18.08.06:259][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.12.08-18.08.06:278][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.08-18.08.06:279][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.08-18.08.06:284][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.08-18.08.06:284][  0]LogSlate: Took 0.000060 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.08-18.08.06:376][  0]LogRenderer: Reallocating scene render targets to support 1228x588 Format 10 NumSamples 1 (Frame:1).
+[2019.12.08-18.08.06:447][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.08-18.08.06:447][  0]LogLoad: (Engine Initialization) Total time: 6.06 seconds
+[2019.12.08-18.08.06:447][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.08-18.08.06:486][  0]LogAssetRegistry: Asset discovery search completed in 3.7245 seconds
+[2019.12.08-18.08.06:489][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.12.08-18.08.06:489][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000201 seconds (updated 0 objects)
+[2019.12.08-18.08.06:490][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.08-18.08.06:708][  4]LogPython: tcp server spawned on 127.0.0.1:13428
+[2019.12.08-18.08.07:453][ 91]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.08:501][138]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.09:501][141]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.10:503][171]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.11:503][291]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.12:532][374]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.13:531][377]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.14:532][380]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.15:532][383]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.16:531][386]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.17:536][389]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.18:536][392]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.19:539][395]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.20:539][398]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.21:559][401]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.22:558][404]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.23:563][407]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.24:562][410]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.25:563][413]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.26:563][416]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.27:562][419]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.28:563][422]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.29:562][425]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.30:562][428]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.31:562][431]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.32:562][434]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.33:563][437]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.34:563][440]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.35:563][443]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.36:563][446]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.37:562][449]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.38:562][452]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.39:562][455]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.40:563][458]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.41:563][461]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.42:563][464]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.43:563][467]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.44:562][470]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.45:563][473]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.46:563][476]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.47:562][479]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.48:562][482]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.49:562][485]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.50:562][488]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.51:563][491]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.52:563][494]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.53:563][497]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.54:563][500]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.55:562][503]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.56:563][506]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.57:563][509]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.58:566][512]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.08.59:565][515]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.00:565][518]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.01:565][521]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.02:571][524]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.03:571][527]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.04:571][530]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.05:571][533]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.06:572][536]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.07:571][539]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.08:577][542]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.09:578][545]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.10:578][548]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.11:578][551]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.12:577][554]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.13:578][557]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.14:578][560]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.15:578][563]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.16:578][566]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.17:578][569]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.18:577][572]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.19:578][575]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.20:578][578]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.21:578][581]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.22:578][584]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.23:577][587]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.24:578][590]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.25:578][593]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.26:578][596]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.27:584][599]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.28:591][602]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.29:591][605]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.30:591][608]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.31:591][611]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.32:598][614]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.33:598][617]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.34:598][620]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.35:598][623]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.36:598][626]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.37:598][629]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.38:604][632]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.39:605][635]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.40:604][638]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.41:604][641]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.42:604][644]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.43:604][647]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.44:604][650]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.45:604][653]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.46:605][656]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.47:604][659]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.48:604][662]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.49:604][665]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.50:605][668]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.51:604][671]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.52:609][674]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.53:608][677]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.54:614][680]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.55:615][683]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.56:614][686]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.57:615][689]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.58:617][692]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.09.59:617][695]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.00:616][698]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.01:617][701]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.02:616][704]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.03:616][707]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.04:616][710]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.05:616][713]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.06:623][716]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.07:622][719]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.08:622][722]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.09:622][725]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.10:621][728]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.11:628][731]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.12:628][734]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.13:635][737]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.14:634][740]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.15:635][743]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.16:634][746]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.17:635][749]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.18:635][752]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.19:634][755]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.20:635][758]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.21:635][761]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.22:635][764]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.23:640][767]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.24:640][770]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.25:640][773]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.26:641][776]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.27:641][779]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.28:641][782]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.29:641][785]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.30:641][788]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.31:640][791]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.32:641][794]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.33:647][797]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.34:646][800]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.35:646][803]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.36:646][806]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.37:660][809]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.38:659][812]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.39:660][815]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.40:665][818]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.41:672][821]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.42:677][824]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.43:677][827]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.44:678][830]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.45:677][833]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.46:678][836]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.47:677][839]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.48:683][842]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.49:689][845]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.50:690][848]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.51:689][851]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.52:689][854]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.53:689][857]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.54:690][860]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.55:689][863]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.56:702][866]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.57:703][869]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.58:703][872]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.10.59:703][875]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.00:703][878]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.01:703][881]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.02:703][884]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.03:705][887]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.04:705][890]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.05:706][893]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.06:708][896]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.07:709][899]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.08:708][902]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.09:710][905]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.10:710][908]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.11:711][911]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.12:710][914]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.13:711][917]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.14:712][920]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.15:713][923]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.16:713][926]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.17:714][929]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.18:714][932]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.19:714][935]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.20:717][938]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.21:721][941]LogHotReload: New module detected: UE4Editor-SampleProject-0001.dll
+[2019.12.08-18.11.21:722][941]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.22:730][944]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.23:089][946]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.08-18.11.23:093][946]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.08-18.11.23:141][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.12.08-18.11.23:150][946]LogContentBrowser: Native class hierarchy updated for 'SampleProject' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.12.08-18.11.23:156][946]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.08-18.11.23:229][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2019.12.08-18.11.23:246][946]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2885 classes and 694 folders.
+[2019.12.08-18.11.23:252][946]Display: HotReload took  0.2s.
+[2019.12.08-18.11.23:736][947]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.24:738][950]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.25:947][965]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.26:947][968]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.27:947][971]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.28:947][974]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.29:947][977]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.30:947][980]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.31:947][983]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.32:941][986]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.33:941][106]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.34:251][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-18.11.35:818][330]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.36:921][383]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.37:921][386]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.38:921][389]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.39:921][392]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.40:921][395]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.41:921][398]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.42:921][401]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.43:915][404]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.45:015][536]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.46:116][668]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.47:115][788]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.48:115][908]LogTemp: Display: Delegate broadcasted!
+[2019.12.08-18.11.48:258][922]Candidate modules for hot reload:
+[2019.12.08-18.11.48:258][922]  JoyConDriver
+[2019.12.08-18.11.48:258][922]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=JoyConDriver,5962 Win64 Development -TargetType=Editor -Project="C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject" "C:/Users/jpdante/Documents/GitHub/JoyConDriver/SampleProject/SampleProject.uproject"  -IgnoreJunk]
+[2019.12.08-18.11.56:577][922]CompilerResultsLog: New page: Compilation - Dec 8, 2019, 1:11:56 PM
+[2019.12.08-18.11.56:577][922]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+[2019.12.08-18.11.56:577][922]CompilerResultsLog: Parsing headers for SampleProjectEditor
+[2019.12.08-18.11.56:578][922]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.08-18.11.56:578][922]CompilerResultsLog: Reflection code generated for SampleProjectEditor in 5,2547257 seconds
+[2019.12.08-18.11.56:578][922]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.08-18.11.56:578][922]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.08-18.11.56:578][922]CompilerResultsLog:   [1/4] Module.JoyConDriver.cpp
+[2019.12.08-18.11.56:579][922]CompilerResultsLog:   [2/4] UE4Editor-JoyConDriver-5962.lib
+[2019.12.08-18.11.56:579][922]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5962.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5962.exp
+[2019.12.08-18.11.56:579][922]CompilerResultsLog:   [3/4] UE4Editor-JoyConDriver-5962.dll
+[2019.12.08-18.11.56:579][922]CompilerResultsLog:      Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5962.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver-5962.suppressed.exp
+[2019.12.08-18.11.56:580][922]CompilerResultsLog:   [4/4] SampleProjectEditor.target
+[2019.12.08-18.11.56:580][922]CompilerResultsLog: Total time in Parallel executor: 2,14 seconds
+[2019.12.08-18.11.56:580][922]CompilerResultsLog: Total execution time: 8,26 seconds
+[2019.12.08-18.11.56:580][922]LogMainFrame: MainFrame: Module compiling took 8.325 seconds
+[2019.12.08-18.11.56:612][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.12.08-18.11.56:612][922]LogTemp: Display: JoyConDriver Module shutdown!
+[2019.12.08-18.11.56:619][922]LogClass: EJoyConState HotReload.
+[2019.12.08-18.11.56:622][922]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.12.08-18.11.56:949][922]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.327 s
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: === Handled ensure: ===
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: 
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1136]
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: Unable to bind delegate to 'NewControllerConnected' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: Stack: 
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: [Callstack] 0x00007ffea48782e8 UE4Editor-JoyConDriver-5962.dll!DispatchCheckVerify<bool,<lambda_cae4c8d352e30f8c0f71d8dd019a5c8b> >() [C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:164]
+[2019.12.08-18.11.56:950][922]LogOutputDevice: Error: [Callstack] 0x00007ffea48722c3 UE4Editor-JoyConDriver-5962.dll!UJoyConController::UJoyConController() [C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Private\JoyConController.cpp:13]
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38f4061 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38e541a UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38ec48d UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38f67d9 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38f6b64 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38ef3d6 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:951][922]LogOutputDevice: Error: [Callstack] 0x00007ffed5d4ac0b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffed6051be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffed6032361 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffed5f64fd5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffec8e883d7 UE4Editor-Core.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffec8ea0ccb UE4Editor-Core.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffec8e9fe63 UE4Editor-Core.dll!UnknownFunction []
+[2019.12.08-18.11.56:952][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38ed5c3 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38eb267 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38ebc86 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38f2b47 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffeb38f22f0 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffeae4506df UE4Editor-ModuleUI.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffeae44792f UE4Editor-ModuleUI.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffecb5858b8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.08-18.11.56:953][922]LogOutputDevice: Error: [Callstack] 0x00007ffecb5a14b1 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007ffecb3e5231 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007ffecb46b4f1 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007ffecb4552e8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007ffecb449c91 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007fff0ec74e02 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007fff0ec626df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007fff0ec77340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007fff0ec5edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.08-18.11.56:954][922]LogOutputDevice: Error: [Callstack] 0x00007fff2fc463ed USER32.dll!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007fff2fc45de2 USER32.dll!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007fff0ec788e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007ff777026980 UE4Editor.exe!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007ff77703a91c UE4Editor.exe!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007ff77703a9fa UE4Editor.exe!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007ff77704b92c UE4Editor.exe!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007ff77704e60e UE4Editor.exe!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007fff2f447bd4 KERNEL32.DLL!UnknownFunction []
+[2019.12.08-18.11.56:955][922]LogOutputDevice: Error: [Callstack] 0x00007fff302aced1 ntdll.dll!UnknownFunction []
+[2019.12.08-18.11.56:956][922]LogOutputDevice: Error: 
+[2019.12.08-18.11.56:959][922]LogStats:                SubmitErrorReport -  0.000 s
