@@ -498,6 +498,7 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Inc\JoyConDriver
 /I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source
 /I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Public
 /I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver

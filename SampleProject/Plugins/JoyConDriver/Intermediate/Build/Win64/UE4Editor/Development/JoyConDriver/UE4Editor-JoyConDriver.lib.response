@@ -7,7 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.NoUndef.h.obj"
-"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\JoyConDriver.cpp.obj"
+"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\JoyConController.cpp.obj"
+"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Module.JoyConDriver.cpp.obj"
+"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Module.JoyConDriver.gen.cpp.obj"
 "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\hid.c.obj"
 "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Default.rc2.res"
 /OUT:"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.lib"

@@ -20,4 +20,7 @@ public:
 	virtual bool IsTickableWhenPaused() const override { return true; }
 	virtual bool IsTickableInEditor() const override   { return true; }
 	virtual TStatId GetStatId() const override;
+	
+private:
+	float Time = 0.0F;
 };
