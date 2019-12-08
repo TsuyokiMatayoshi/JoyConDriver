@@ -1,2 +1,0 @@
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\Definitions.SampleProject.h
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProject\SampleProject.h

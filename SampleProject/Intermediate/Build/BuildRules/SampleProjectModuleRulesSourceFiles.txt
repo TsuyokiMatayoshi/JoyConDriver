@@ -1,4 +1,0 @@
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProject\SampleProject.Build.cs
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\JoyConDriver.Build.cs
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProject.Target.cs
-C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProjectEditor.Target.cs
