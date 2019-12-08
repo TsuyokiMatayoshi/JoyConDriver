@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SampleProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B6250F01-30A9-4B03-ADE9-92BE76585CB9}</UniqueIdentifier>
+      <UniqueIdentifier>{E8735438-A2D3-4FF9-9A6D-66120872EB45}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SampleProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C87FDFD3-6EF5-42EE-B0B8-9A62D3F918CB}</UniqueIdentifier>
+      <UniqueIdentifier>{36B700B7-0F2A-46E0-832B-0157E21B19B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,77 +24,83 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Android">
-      <UniqueIdentifier>{72365B93-ABE5-4768-A401-2F193EE15FBA}</UniqueIdentifier>
+      <UniqueIdentifier>{DADDCBEA-B24D-4A88-A6C1-0B4B85533B5A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Android\AndroidEngine.ini">
       <Filter>Config\Android</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{F4C45C69-E6D8-4469-A305-BE9C71BF05E1}</UniqueIdentifier>
+      <UniqueIdentifier>{328214C3-BA3A-41C6-8538-C6C5864BDCB9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{ED5E250B-7871-43B9-9DDC-CF3A7CCFD580}</UniqueIdentifier>
+      <UniqueIdentifier>{4DF40824-AD6A-48DD-A025-53BE308EB96C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{4C9A34D5-9797-475C-B424-ECE05DD28C1A}</UniqueIdentifier>
+      <UniqueIdentifier>{37252805-7684-46E8-8704-84682DA27489}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\PS4">
-      <UniqueIdentifier>{8600737C-547F-4ECF-9AF1-F591FA81E245}</UniqueIdentifier>
+      <UniqueIdentifier>{69625171-B920-4AAE-9450-9A186CE3A4A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\PS4\PS4Engine.ini">
       <Filter>Config\PS4</Filter>
     </None>
     <Filter Include="Config\Switch">
-      <UniqueIdentifier>{9C1C1C15-4AB1-4831-AA7F-C1F01294F2C0}</UniqueIdentifier>
+      <UniqueIdentifier>{D5F41CCC-A519-4B56-A778-A70E1AEB042F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Switch\SwitchEngine.ini">
       <Filter>Config\Switch</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{6C37C3AC-1200-460B-8B83-436A9CC23DF7}</UniqueIdentifier>
+      <UniqueIdentifier>{A751F12D-285E-4C95-A89C-0FCC3EF7CB45}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Config\XboxOne">
-      <UniqueIdentifier>{320D2339-23BA-4524-A856-FFEAF06068D4}</UniqueIdentifier>
+      <UniqueIdentifier>{7358B8B7-F09A-4A35-80D9-7A84338BFFFC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
       <Filter>Config\XboxOne</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{B80E1009-5652-4CBF-8683-0C25C260D87C}</UniqueIdentifier>
+      <UniqueIdentifier>{B09F9583-6727-46CD-BBE0-6224448E03C3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\JoyConDriver">
-      <UniqueIdentifier>{31DCC3CD-91F2-4D87-A50F-B87DA86F8306}</UniqueIdentifier>
+      <UniqueIdentifier>{18FE08B8-56A8-4B3F-8CF5-8D26F5710032}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\JoyConDriver\Source">
-      <UniqueIdentifier>{475A5D56-F213-4648-BF8F-EAE3A0EF9754}</UniqueIdentifier>
+      <UniqueIdentifier>{E8CF612B-226F-4A2A-9648-911D06287FE3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\JoyConDriver\Source\JoyConDriver">
-      <UniqueIdentifier>{F6E01271-700F-4F17-A7FE-0C2FCE034383}</UniqueIdentifier>
+      <UniqueIdentifier>{705D503F-1362-4A20-91DA-EC945F82CE2F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\JoyConDriver.Build.cs">
       <Filter>Plugins\JoyConDriver\Source\JoyConDriver</Filter>
     </None>
     <Filter Include="Plugins\JoyConDriver\Source\JoyConDriver\Private">
-      <UniqueIdentifier>{19797E60-C1D8-4A43-A329-7B9990C8E510}</UniqueIdentifier>
+      <UniqueIdentifier>{01E2708E-F59E-46B3-B505-E9B9D93B1719}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Private\hid.c">
+      <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Private</Filter>
+    </None>
     <ClCompile Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Private\JoyConDriver.cpp">
       <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\JoyConDriver\Source\JoyConDriver\Public">
-      <UniqueIdentifier>{690FC111-9A00-40B9-BF5E-993201479AD3}</UniqueIdentifier>
+      <UniqueIdentifier>{E3A9AAF7-3F95-42EA-AD62-99696A7C6E19}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Public\hidapi.h">
+      <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\JoyConDriver\Source\JoyConDriver\Public\JoyConDriver.h">
       <Filter>Plugins\JoyConDriver\Source\JoyConDriver\Public</Filter>
     </ClInclude>
@@ -102,13 +108,13 @@
       <Filter>Plugins\JoyConDriver</Filter>
     </None>
     <Filter Include="Plugins\JoyConDriver\Resources">
-      <UniqueIdentifier>{7332BF44-6CA9-431A-B7AB-9F6F56615554}</UniqueIdentifier>
+      <UniqueIdentifier>{0446211F-066E-4C2D-BF8B-4B9CFEF83146}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\JoyConDriver\Resources\Icon128.png">
       <Filter>Plugins\JoyConDriver\Resources</Filter>
     </None>
     <Filter Include="Source\SampleProject">
-      <UniqueIdentifier>{7D8ED5F9-7019-43A4-9D39-D941BD47DDCA}</UniqueIdentifier>
+      <UniqueIdentifier>{19F94058-4D04-4E1B-84CF-5E8990D4B66A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SampleProject\SampleProject.Build.cs">
       <Filter>Source\SampleProject</Filter>

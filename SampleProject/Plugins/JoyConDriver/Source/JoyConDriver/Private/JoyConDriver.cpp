@@ -4,17 +4,23 @@
 
 #define LOCTEXT_NAMESPACE "FJoyConDriverModule"
 
-void FJoyConDriverModule::StartupModule()
-{
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+void FJoyConDriverModule::StartupModule() {
+	UE_LOG(LogTemp, Display, TEXT("JoyConDriver Module started!"));
 }
 
-void FJoyConDriverModule::ShutdownModule()
-{
-	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
-	// we call this function before unloading the module.
+void FJoyConDriverModule::ShutdownModule() {
+	UE_LOG(LogTemp, Display, TEXT("JoyConDriver Module shutdown!"));
+}
+
+void FJoyConDriverModule::Tick(float DeltaTime) {
+	//UE_LOG(LogTemp, Display, TEXT("Tick! - %f"), DeltaTime);
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString("Connection lost. Is the Joy-Con connected?"));
+}
+
+TStatId FJoyConDriverModule::GetStatId() const {
+	return TStatId();
 }
 
 #undef LOCTEXT_NAMESPACE
-	
+
 IMPLEMENT_MODULE(FJoyConDriverModule, JoyConDriver)

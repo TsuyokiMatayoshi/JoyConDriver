@@ -26,20 +26,35 @@
 /Zp8
 /wd4463
 /wd4838
-/we4668
 /I .
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Private"
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
-/I Runtime\CoreUObject\Public
-/I Runtime\CoreUObject
-/I Runtime\CoreUObject\Public\Blueprint
-/I Runtime\CoreUObject\Public\Internationalization
-/I Runtime\CoreUObject\Public\Misc
-/I Runtime\CoreUObject\Public\Serialization
-/I Runtime\CoreUObject\Public\Serialization\Formatters
-/I Runtime\CoreUObject\Public\Templates
-/I Runtime\CoreUObject\Public\UObject
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Audio
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\Net\Util
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Subsystems
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
+/I Runtime\Engine\Public\VT
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -75,32 +90,16 @@
 /I Runtime\TraceLog
 /I Runtime\TraceLog\Public\Trace
 /I Runtime\TraceLog\Public\Trace\Private
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Analytics
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Audio
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\Net\Util
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\Physics\Experimental
-/I Runtime\Engine\Public\Physics\ImmediatePhysics
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Subsystems
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
-/I Runtime\Engine\Public\VT
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I Runtime\CoreUObject
+/I Runtime\CoreUObject\Public\Blueprint
+/I Runtime\CoreUObject\Public\Internationalization
+/I Runtime\CoreUObject\Public\Misc
+/I Runtime\CoreUObject\Public\Serialization
+/I Runtime\CoreUObject\Public\Serialization\Formatters
+/I Runtime\CoreUObject\Public\Templates
+/I Runtime\CoreUObject\Public\UObject
 /I Runtime\ApplicationCore\Public
 /I Runtime\ApplicationCore
 /I Runtime\ApplicationCore\Public\GenericPlatform
@@ -499,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Source"
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Public"
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver"
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Public
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -530,12 +529,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Private\JoyConDriver.cpp"
-/FI"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Definitions.JoyConDriver.h"
-/Fo"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\JoyConDriver.cpp.obj"
+/FI"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.NoUndef.h"
+/Yu"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.NoUndef.h"
+/Fp"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.NoUndef.h.pch"
+"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\Private\JoyConDriver.cpp"
+/FI"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Definitions.JoyConDriver.h"
+/Fo"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\JoyConDriver.cpp.obj"
 /TP
 /GR-
 /W4

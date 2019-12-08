@@ -28,9 +28,9 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\UE4Editor\Inc\SampleProject"
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Source"
-/I "C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Source\SampleProject"
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Inc\SampleProject
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source
+/I C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProject
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -529,12 +529,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\UE4Editor\Inc\SampleProject\SampleProject.init.gen.cpp"
-/FI"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\Definitions.SampleProject.h"
-/Fo"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\SampleProject.init.gen.cpp.obj"
+/FI"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Inc\SampleProject\SampleProject.init.gen.cpp"
+/FI"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\Definitions.SampleProject.h"
+/Fo"C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\SampleProject.init.gen.cpp.obj"
 /TP
 /GR-
 /W4

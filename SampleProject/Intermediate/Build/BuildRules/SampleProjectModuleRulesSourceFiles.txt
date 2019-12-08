@@ -1,4 +1,4 @@
-C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Source\SampleProject\SampleProject.Build.cs
-C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\JoyConDriver.Build.cs
-C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Source\SampleProject.Target.cs
-C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Source\SampleProjectEditor.Target.cs
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProject\SampleProject.Build.cs
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Source\JoyConDriver\JoyConDriver.Build.cs
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProject.Target.cs
+C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Source\SampleProjectEditor.Target.cs

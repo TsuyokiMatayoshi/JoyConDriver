@@ -1,0 +1,33 @@
+﻿  Cleaning SampleProjectEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jpdante\Documents\GitHub\JoyConDriver).
+  Creating makefile for SampleProjectEditor (no existing makefile)
+  Using Python at: C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
+  [WARNING] Your Python installation is not in the system PATH environment variable.
+  [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
+C:\Program Files\Epic Games\UE_4.23\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs : warning : Referenced directory 'C:\Program Files\Epic Games\UE_4.23\Engine\Source\UnrealEnginePython\Public' does not exist.
+  Parsing headers for SampleProjectEditor
+    Running UnrealHeaderTool "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\SampleProject.uproject" "C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\SampleProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SampleProjectEditor in 5,6179407 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 15 actions with 16 processes...
+    [1/15] Default.rc2
+    [2/15] Default.rc2
+    [3/15] hid.c
+    [4/15] SharedPCH.Engine.NoUndef.cpp
+    [5/15] SharedPCH.Engine.cpp
+    [6/15] JoyConDriver.cpp
+    [7/15] SampleProject.cpp
+    [8/15] UE4Editor-JoyConDriver.lib
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.exp
+    [9/15] SampleProject.init.gen.cpp
+    [10/15] SampleProjectGameModeBase.cpp
+    [11/15] SampleProjectGameModeBase.gen.cpp
+    [12/15] UE4Editor-SampleProject.lib
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.exp
+    [13/15] UE4Editor-JoyConDriver.dll
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.suppressed.exp
+    [14/15] UE4Editor-SampleProject.dll
+       Creating library C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.suppressed.lib and object C:\Users\jpdante\Documents\GitHub\JoyConDriver\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\UE4Editor-SampleProject.suppressed.exp
+    [15/15] SampleProjectEditor.target
+  Total time in Parallel executor: 22,16 seconds
+  Total execution time: 29,65 seconds
