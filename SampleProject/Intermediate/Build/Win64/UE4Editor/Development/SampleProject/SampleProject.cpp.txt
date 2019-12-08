@@ -1,0 +1,2 @@
+C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\UE4Editor\Development\SampleProject\Definitions.SampleProject.h
+C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Source\SampleProject\SampleProject.h

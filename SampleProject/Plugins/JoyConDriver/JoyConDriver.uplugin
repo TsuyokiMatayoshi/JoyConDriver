@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "JoyConDriver",
+	"Description": "Driver for using Nintendo Switch JoyCons on Windows",
+	"Category": "Other",
+	"CreatedBy": "Joao Pedro Caires",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "JoyConDriver",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

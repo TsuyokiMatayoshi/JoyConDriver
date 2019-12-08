@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-JoyConDriver.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Intermediate\Build\Win64\SampleProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\JoyConDriver.cpp.obj"
+"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\Default.rc2.res"
+/OUT:"C:\Users\jpdante\Documents\Unreal Projects\SampleProject\Plugins\JoyConDriver\Intermediate\Build\Win64\UE4Editor\Development\JoyConDriver\UE4Editor-JoyConDriver.lib"
+/INCLUDE:IMPLEMENT_MODULE_JoyConDriver
